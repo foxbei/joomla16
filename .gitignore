@@ -1,2 +1,4 @@
 sync.sh
-
+cache/*
+logs/*
+tmp/*
