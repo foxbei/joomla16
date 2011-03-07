@@ -1,0 +1,91 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/system.css);
+@import url(../warp/systems/joomla.1.6/css/system.css);
+
+/*
+ * item
+ */
+
+#system .item {
+	padding: 20px;
+	border: 1px solid #DFE0E1;
+	background: #ffffff;
+}
+
+#system .items .item {
+	margin: 0 10px 20px 10px;
+	padding: 20px;
+	border: 1px solid #DFE0E1;
+	background: #ffffff;
+}
+
+#system .items .item:first-child {
+	margin-top: 0;
+	padding: 20px;
+	border: 1px solid #DFE0E1;
+}
+
+/*
+ * Joomla 1.6 only
+ */
+ 
+#system .items.leading {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+
+#system .item-list {
+    border-top: none;
+	margin-top: 0;
+}
+
+ 
+#breadcrumbs span {
+	margin-right: 8px;
+	padding-right: 15px;
+	background: url(../images/breadcrumbs.png) 100% 50% no-repeat;
+	text-decoration: none;
+	color: #78797A;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+/*
+ * pagination
+ */
+
+.pagination a,
+.pagination strong {
+	border: 1px solid #DFE0E1;
+	background: #ffffff;
+}
+
+/*
+ * readmore button
+ */
+
+a.readmore {
+	height: 22px;
+	padding: 0 20px 0 0;
+	border: none;
+	background: #646566 url(../images/readmore.png) 100% 0 no-repeat;
+	line-height: 22px;
+	text-indent: 8px;
+	font-size: 11px;
+	letter-spacing: 0px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+a.readmore:link,
+a.readmore:visited {
+	color: #F8F9FA;
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+}
+
+a.readmore:hover {
+	background: #464748 url(../images/readmore.png) 100% -27px no-repeat;
+	color: #ffffff;
+}

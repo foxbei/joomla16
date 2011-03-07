@@ -1,0 +1,29 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * This CSS file is for customization purpose only
+ */ 
+
+#logo a.logo-icon {
+	display: block;
+	width: 302px;
+	height: 133px;
+	margin: auto;
+	background: url(../../../images/yootheme/logo.png) 0 0 no-repeat;
+}
+
+.mod-frame-custom h3.header {
+	text-align: center;
+	font-size: 35px;
+	line-height: 60px;
+}
+
+#top .frontpage {
+	display: block;
+	width: 800px;
+	height: 250px;
+}
+
+#top .frontpage1 { background: url(../../../images/yootheme/yoocarousel/royal_icon1.jpg) 0 0 no-repeat; }
+#top .frontpage2 { background: url(../../../images/yootheme/yoocarousel/royal_icon2.jpg) 0 0 no-repeat; }
+#top .frontpage3 { background: url(../../../images/yootheme/yoocarousel/royal_image.jpg) 0 0 no-repeat; }

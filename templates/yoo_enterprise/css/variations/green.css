@@ -1,0 +1,62 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+#footer a.anchor { background-image: url(../../images/variations/green/footer_anchor.png); }
+
+/* typography */
+h1,
+#page h1 a,
+h3,
+h5,
+.contentheading,
+.componentheading { color: #679e11; }
+
+a { color: #679e11; }
+
+#page h1 a:hover,
+a:hover,
+ul.links li:hover a,
+ul.latestnews li:hover a,
+ul.mostread li:hover a { color: #FF6C03; }
+
+ul.links li,
+ul.latestnews li,
+ul.mostread li { background-image: url(../../images/variations/green/list_links.png) }
+
+/* menus */
+#menu li.level1,
+#menu li.parent a.level1,
+#menu li.parent span.level1 { background-image: url(../../images/variations/green/menu_level1_item.png); }
+#menu li.active .level1 span.bg { color: #679e11; }
+#menu .dropdown-t3 { background: #A0C60D; }
+#menu a.level3,
+div.mod-box ul.menu li.level2 span.bg { background-image: url(../../images/variations/green/menu_level3_item.png); }
+#menu a.level2:hover span.bg,
+#menu a.level3:hover span.bg,
+div.mod-box ul.menu a:hover span.bg,
+div.mod-box ul.menu span:hover span.bg { color: #FF6C03; }
+div.mod-box ul.menu li.parent a.level1 span.bg,
+div.mod-box ul.menu li.parent span.level1 span.bg { background-image: url(../../images/variations/green/submenu_level1_parent.png); }
+
+/* modules */
+div.mod-box-header h3.header { background-image: url(../../images/variations/green/module_box_corners.png); }
+div.mod-box-templatecolor div.box-t1,
+div.mod-box-templatecolor div.box-t2,
+div.mod-box-templatecolor div.box-t3,
+div.mod-box-templatecolor div.box-b1,
+div.mod-box-templatecolor div.box-b2,
+div.mod-box-templatecolor div.box-b3,
+div.mod-box-templatecolor.mod-box-header h3.header { background-image: url(../../images/variations/green/module_box_templatecolor_corners.png); }
+div.mod-box-templatecolor div.box-3 {
+	border-left: 1px solid #678433;
+	border-right: 1px solid #678433;
+	background: #679e11;
+}
+div.mod-box-templatecolor.mod-box-header h3.header { color: #678433; }
+div.mod-box-templatecolor em.box { border: 1px dotted #BCE041; background: #678433; }
+
+/* system */
+a.readmore { background-image: url(../../images/variations/green/readmore.png); }
+#page a.readmore:hover { color:#FF6C03; }
+
+#searchbox .results li.results-header {	background-image: url(../../images/variations/green/yoosearch/header_bg.png); }

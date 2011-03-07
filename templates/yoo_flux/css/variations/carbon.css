@@ -1,0 +1,35 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body.yoopage { background: #21262D; }
+#page-body { background-image: url(../../images/variations/carbon/page_bg_t.png); background-position: 50% 0; }
+#page-footer { background-image: url(../../images/variations/carbon/page_bg_b.png); }
+
+#menubar { background-image: url(../../images/variations/carbon/menubar_bg.png); }
+#menubar div.menubar-2 { background-image: url(../../images/variations/carbon/menubar_bg.png); }
+#menubar div.menubar-3 { background-image: url(../../images/variations/carbon/menubar_bg.png); }
+
+#menu li.active .level1 span.bg { color: #cf1402; }
+#menu li.active .level1 span.subtitle { color: #bb2416; }
+
+h1,
+#page h1 a,
+h3,
+h5,
+a:link,
+a:visited,
+.contentheading,
+.componentheading { color: #ca2f1e; }
+
+a:hover { color: #ff0000;  }
+
+/* color: header templatecolor */
+div.mod-rounded-header-templatecolor div.header-1 { background-image: url(../../images/module_rounded_grey_header_grey.png); }
+div.mod-rounded-header-templatecolor div.header-2 { background-image: url(../../images/module_rounded_grey_header_grey.png); }
+div.mod-rounded-header-templatecolor div.header-3 { background-image: url(../../images/module_rounded_grey_header_grey.png); }
+
+div.mod-rounded-header-templatecolor h3.header {
+	color: #323232;
+	text-shadow: 0px 1px 0px #ffffff, 0px 2px 2px #c8c8c8;
+}
+
+div.mod-rounded-header-templatecolor h3.header span.subtitle { color: #646464; }

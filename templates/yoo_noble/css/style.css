@@ -1,0 +1,452 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* BACKGROUND-GREEN */
+body.background-green.yoopage { background: #B6BB55; }
+
+.background-green #breadcrumbs span.current { color: #ABAD52; }
+
+.background-green #footer a.anchor { background-image: url(../images/background/green/footer_anchor.png); }
+
+/* typography */
+#page.background-green h1 a,
+.background-green h1,
+.background-green h3,
+.background-green h5,
+.background-green a:link,
+.background-green a:visited { color: #ABAD52; }
+.background-green a:hover { color: #646566; }
+
+.background-green ul.links li { background-image: url(../images/background/green/typography/list_links.png); }
+#page.background-green ul.links li a:hover { color: #ABAD52; }
+
+.background-green ul.hoverbox li { background-image: url(../images/background/green/typography/list_hoverbox.png); }
+
+/* menus */
+.background-green #footer .menu li a,
+.background-green #menu li.active a.level1 span.bg,
+.background-green #menu li.active span.level1 span.bg,
+.background-green #menu li:hover a.level1 span.bg,
+.background-green #menu li:hover span.level1 span.bg,
+.background-green #menu li.remain .level1 span.bg,
+.background-green #menu a.level2:hover span.bg,
+.background-green #menu li.level2 a.current span.bg,
+.background-green #menu a.level3:hover span.bg { color: #ABAD52; }
+
+.background-green #menu div.fancy div.fancy-3 {	background-image: url(../images/background/green/menu_fancy.png); }
+
+.background-green #menu a.level3 span.bg,
+.background-green #menu span.level3 span.bg {	background-image: url(../images/background/green/menu_level3_item.png); }
+
+.background-green div.mod-line ul.menu a.current span.bg,
+.background-green div.mod-line ul.menu a:hover span.bg,
+.background-green div.mod-line ul.menu span:hover span.bg { color: #ABAD52; }
+
+.background-green div.mod-line ul.menu li.parent a.level1 span.bg,
+.background-green div.mod-line ul.menu li.parent span.level1 span.bg { background-image: url(../images/background/green/submenu_level1_parent.png); }
+
+.background-green div.mod-line ul.menu li.level2 span.bg { background-image: url(../images/background/green/submenu_level2_item.png); }
+
+/* modules */
+.background-green div.mod-bookmark h3.header,
+.background-green div.mod-bookmark span.header-2,
+.background-green div.mod-bookmark span.header-3 { background-image: url(../images/background/green/module_bookmark_bg.png); }
+
+/* joomla */
+#page.background-green a.readmore { background-image: url(../images/background/green/readmore.png); }
+
+#page.background-green a.readmore:link,
+#page.background-green a.readmore:visited { color: #ABAD52; }
+
+#page.background-green a.readmore:hover { color: #818384; }
+
+/* extensions */
+.background-green #yoo-zoo.blog-noble .items h1.pos-title,
+.background-green #yoo-zoo.blog-noble .items h1.pos-title a,
+.background-green #yoo-zoo.blog-noble .item h1.pos-title {	color: #ABAD52; }
+
+
+/* BACKGROUND-BLUE */
+body.background-blue.yoopage { background: #89A9BC; }
+
+.background-blue #breadcrumbs span.current { color: #658FA7; }
+
+.background-blue #footer a.anchor { background-image: url(../images/background/blue/footer_anchor.png); }
+
+/* typography */
+#page.background-blue h1 a,
+.background-blue h1,
+.background-blue h3,
+.background-blue h5,
+.background-blue a:link,
+.background-blue a:visited { color: #658FA7; }
+.background-blue a:hover { color: #646566; }
+
+.background-blue ul.links li { background-image: url(../images/background/blue/typography/list_links.png); }
+#page.background-blue ul.links li a:hover { color: #658FA7; }
+
+.background-blue ul.hoverbox li { background-image: url(../images/background/blue/typography/list_hoverbox.png); }
+
+/* menus */
+.background-blue #footer .menu li a,
+.background-blue #menu li.active a.level1 span.bg,
+.background-blue #menu li.active span.level1 span.bg,
+.background-blue #menu li:hover a.level1 span.bg,
+.background-blue #menu li:hover span.level1 span.bg,
+.background-blue #menu li.remain .level1 span.bg,
+.background-blue #menu a.level2:hover span.bg,
+.background-blue #menu li.level2 a.current span.bg,
+.background-blue #menu a.level3:hover span.bg { color: #658FA7; }
+
+.background-blue #menu div.fancy div.fancy-3 {	background-image: url(../images/background/blue/menu_fancy.png); }
+
+.background-blue #menu a.level3 span.bg,
+.background-blue #menu span.level3 span.bg {	background-image: url(../images/background/blue/menu_level3_item.png); }
+
+.background-blue div.mod-line ul.menu a.current span.bg,
+.background-blue div.mod-line ul.menu a:hover span.bg,
+.background-blue div.mod-line ul.menu span:hover span.bg { color: #658FA7; }
+
+.background-blue div.mod-line ul.menu li.parent a.level1 span.bg,
+.background-blue div.mod-line ul.menu li.parent span.level1 span.bg { background-image: url(../images/background/blue/submenu_level1_parent.png); }
+
+.background-blue div.mod-line ul.menu li.level2 span.bg { background-image: url(../images/background/blue/submenu_level2_item.png); }
+
+/* modules */
+.background-blue div.mod-bookmark h3.header,
+.background-blue div.mod-bookmark span.header-2,
+.background-blue div.mod-bookmark span.header-3 { background-image: url(../images/background/blue/module_bookmark_bg.png); }
+
+/* joomla */
+#page.background-blue a.readmore { background-image: url(../images/background/blue/readmore.png); }
+
+#page.background-blue a.readmore:link,
+#page.background-blue a.readmore:visited { color: #658FA7; }
+
+#page.background-blue a.readmore:hover { color: #818384; }
+
+/* extensions */
+.background-blue #yoo-zoo.blog-noble .items h1.pos-title,
+.background-blue #yoo-zoo.blog-noble .items h1.pos-title a,
+.background-blue #yoo-zoo.blog-noble .item h1.pos-title {	color: #658FA7; }
+
+
+/* BACKGROUND-GREY */
+body.background-grey.yoopage { background: #9BA5AA; }
+
+.background-grey #breadcrumbs span.current { color: #658FA7; }
+
+.background-grey #footer a.anchor { background-image: url(../images/background/grey/footer_anchor.png); }
+
+/* typography */
+#page.background-grey h1 a,
+.background-grey h1,
+.background-grey h3,
+.background-grey h5,
+.background-grey a:link,
+.background-grey a:visited { color: #658FA7; }
+.background-grey a:hover { color: #646566; }
+
+.background-grey ul.links li { background-image: url(../images/background/grey/typography/list_links.png); }
+#page.background-grey ul.links li a:hover { color: #658FA7; }
+
+.background-grey ul.hoverbox li { background-image: url(../images/background/grey/typography/list_hoverbox.png); }
+
+/* menus */
+.background-grey #footer .menu li a,
+.background-grey #menu li.active a.level1 span.bg,
+.background-grey #menu li.active span.level1 span.bg,
+.background-grey #menu li:hover a.level1 span.bg,
+.background-grey #menu li:hover span.level1 span.bg,
+.background-grey #menu li.remain .level1 span.bg,
+.background-grey #menu a.level2:hover span.bg,
+.background-grey #menu li.level2 a.current span.bg,
+.background-grey #menu a.level3:hover span.bg { color: #658FA7; }
+
+.background-grey #menu div.fancy div.fancy-3 {	background-image: url(../images/background/grey/menu_fancy.png); }
+
+.background-grey #menu a.level3 span.bg,
+.background-grey #menu span.level3 span.bg {	background-image: url(../images/background/grey/menu_level3_item.png); }
+
+.background-grey div.mod-line ul.menu a.current span.bg,
+.background-grey div.mod-line ul.menu a:hover span.bg,
+.background-grey div.mod-line ul.menu span:hover span.bg { color: #658FA7; }
+
+.background-grey div.mod-line ul.menu li.parent a.level1 span.bg,
+.background-grey div.mod-line ul.menu li.parent span.level1 span.bg { background-image: url(../images/background/grey/submenu_level1_parent.png); }
+
+.background-grey div.mod-line ul.menu li.level2 span.bg { background-image: url(../images/background/grey/submenu_level2_item.png); }
+
+/* modules */
+.background-grey div.mod-bookmark h3.header,
+.background-grey div.mod-bookmark span.header-2,
+.background-grey div.mod-bookmark span.header-3 { background-image: url(../images/background/grey/module_bookmark_bg.png); }
+
+/* joomla */
+#page.background-grey a.readmore { background-image: url(../images/background/grey/readmore.png); }
+
+#page.background-grey a.readmore:link,
+#page.background-grey a.readmore:visited { color: #658FA7; }
+
+#page.background-grey a.readmore:hover { color: #818384; }
+
+/* extensions */
+.background-grey #yoo-zoo.blog-noble .items h1.pos-title,
+.background-grey #yoo-zoo.blog-noble .items h1.pos-title a,
+.background-grey #yoo-zoo.blog-noble .item h1.pos-title {	color: #658FA7; }
+
+
+/* BACKGROUND-OCHRE */
+body.background-ochre.yoopage { background: #C9C298; }
+
+.background-ochre #breadcrumbs span.current { color: #A09674; }
+
+.background-ochre #footer a.anchor { background-image: url(../images/background/ochre/footer_anchor.png); }
+
+/* typography */
+#page.background-ochre h1 a,
+.background-ochre h1,
+.background-ochre h3,
+.background-ochre h5,
+.background-ochre a:link,
+.background-ochre a:visited { color: #A89C6C; }
+.background-ochre a:hover { color: #646566; }
+
+.background-ochre ul.links li { background-image: url(../images/background/ochre/typography/list_links.png); }
+#page.background-ochre ul.links li a:hover { color: #A89C6C; }
+
+.background-ochre ul.hoverbox li { background-image: url(../images/background/ochre/typography/list_hoverbox.png); }
+
+/* menus */
+.background-ochre #footer .menu li a,
+.background-ochre #menu li.active a.level1 span.bg,
+.background-ochre #menu li.active span.level1 span.bg,
+.background-ochre #menu li:hover a.level1 span.bg,
+.background-ochre #menu li:hover span.level1 span.bg,
+.background-ochre #menu li.remain .level1 span.bg,
+.background-ochre #menu a.level2:hover span.bg,
+.background-ochre #menu li.level2 a.current span.bg,
+.background-ochre #menu a.level3:hover span.bg { color: #A89C6C; }
+
+.background-ochre #menu div.fancy div.fancy-3 {	background-image: url(../images/background/ochre/menu_fancy.png); }
+
+.background-ochre #menu a.level3 span.bg,
+.background-ochre #menu span.level3 span.bg {	background-image: url(../images/background/ochre/menu_level3_item.png); }
+
+.background-ochre div.mod-line ul.menu a.current span.bg,
+.background-ochre div.mod-line ul.menu a:hover span.bg,
+.background-ochre div.mod-line ul.menu span:hover span.bg { color: #A89C6C; }
+
+.background-ochre div.mod-line ul.menu li.parent a.level1 span.bg,
+.background-ochre div.mod-line ul.menu li.parent span.level1 span.bg { background-image: url(../images/background/ochre/submenu_level1_parent.png); }
+
+.background-ochre div.mod-line ul.menu li.level2 span.bg { background-image: url(../images/background/ochre/submenu_level2_item.png); }
+
+/* modules */
+.background-ochre div.mod-bookmark h3.header,
+.background-ochre div.mod-bookmark span.header-2,
+.background-ochre div.mod-bookmark span.header-3 { background-image: url(../images/background/ochre/module_bookmark_bg.png); }
+
+/* joomla */
+#page.background-ochre a.readmore { background-image: url(../images/background/ochre/readmore.png); }
+
+#page.background-ochre a.readmore:link,
+#page.background-ochre a.readmore:visited { color: #A89C6C; }
+
+#page.background-ochre a.readmore:hover { color: #818384; }
+
+/* extensions */
+.background-ochre #yoo-zoo.blog-noble .items h1.pos-title,
+.background-ochre #yoo-zoo.blog-noble .items h1.pos-title a,
+.background-ochre #yoo-zoo.blog-noble .item h1.pos-title {	color: #A89C6C; }
+
+
+/* BACKGROUND-LILAC */
+body.background-lilac.yoopage { background: #DCCDDA; }
+
+.background-lilac #breadcrumbs span.current { color: #A783A3; }
+
+.background-lilac #footer a.anchor { background-image: url(../images/background/lilac/footer_anchor.png); }
+
+/* typography */
+#page.background-lilac h1 a,
+.background-lilac h1,
+.background-lilac h3,
+.background-lilac h5,
+.background-lilac a:link,
+.background-lilac a:visited { color: #A783A3; }
+.background-lilac a:hover { color: #646566; }
+
+.background-lilac ul.links li { background-image: url(../images/background/lilac/typography/list_links.png); }
+#page.background-lilac ul.links li a:hover { color: #A783A3; }
+
+.background-lilac ul.hoverbox li { background-image: url(../images/background/lilac/typography/list_hoverbox.png); }
+
+/* menus */
+.background-lilac #footer .menu li a,
+.background-lilac #menu li.active a.level1 span.bg,
+.background-lilac #menu li.active span.level1 span.bg,
+.background-lilac #menu li:hover a.level1 span.bg,
+.background-lilac #menu li:hover span.level1 span.bg,
+.background-lilac #menu li.remain .level1 span.bg,
+.background-lilac #menu a.level2:hover span.bg,
+.background-lilac #menu li.level2 a.current span.bg,
+.background-lilac #menu a.level3:hover span.bg { color: #A783A3; }
+
+.background-lilac #menu div.fancy div.fancy-3 {	background-image: url(../images/background/lilac/menu_fancy.png); }
+
+.background-lilac #menu a.level3 span.bg,
+.background-lilac #menu span.level3 span.bg {	background-image: url(../images/background/lilac/menu_level3_item.png); }
+
+.background-lilac div.mod-line ul.menu a.current span.bg,
+.background-lilac div.mod-line ul.menu a:hover span.bg,
+.background-lilac div.mod-line ul.menu span:hover span.bg { color: #A783A3; }
+
+.background-lilac div.mod-line ul.menu li.parent a.level1 span.bg,
+.background-lilac div.mod-line ul.menu li.parent span.level1 span.bg { background-image: url(../images/background/lilac/submenu_level1_parent.png); }
+
+.background-lilac div.mod-line ul.menu li.level2 span.bg { background-image: url(../images/background/lilac/submenu_level2_item.png); }
+
+/* modules */
+.background-lilac div.mod-bookmark h3.header,
+.background-lilac div.mod-bookmark span.header-2,
+.background-lilac div.mod-bookmark span.header-3 { background-image: url(../images/background/lilac/module_bookmark_bg.png); }
+
+/* joomla */
+#page.background-lilac a.readmore { background-image: url(../images/background/lilac/readmore.png); }
+
+#page.background-lilac a.readmore:link,
+#page.background-lilac a.readmore:visited { color: #A783A3; }
+
+#page.background-lilac a.readmore:hover { color: #818384; }
+
+/* extensions */
+.background-lilac #yoo-zoo.blog-noble .items h1.pos-title,
+.background-lilac #yoo-zoo.blog-noble .items h1.pos-title a,
+.background-lilac #yoo-zoo.blog-noble .item h1.pos-title {	color: #A783A3; }
+
+/* BACKGROUND-BEIGE */
+body.background-beige.yoopage { background: #938F7D; }
+
+/* BACKGROUND-BROWN */
+body.background-brown.yoopage { background: #5C564E; }
+
+.background-brown #breadcrumbs span.current { color: #C43824; }
+
+.background-brown #footer a.anchor { background-image: url(../images/background/brown/footer_anchor.png); }
+
+/* typography */
+#page.background-brown h1 a,
+.background-brown h1,
+.background-brown h3,
+.background-brown h5,
+.background-brown a:link,
+.background-brown a:visited { color: #C43824; }
+.background-brown a:hover { color: #646566; }
+
+.background-brown ul.links li { background-image: url(../images/background/brown/typography/list_links.png); }
+#page.background-brown ul.links li a:hover { color: #C43824; }
+
+.background-brown ul.hoverbox li { background-image: url(../images/background/brown/typography/list_hoverbox.png); }
+
+/* menus */
+.background-brown #footer .menu li a,
+.background-brown #menu li.active a.level1 span.bg,
+.background-brown #menu li.active span.level1 span.bg,
+.background-brown #menu li:hover a.level1 span.bg,
+.background-brown #menu li:hover span.level1 span.bg,
+.background-brown #menu li.remain .level1 span.bg,
+.background-brown #menu a.level2:hover span.bg,
+.background-brown #menu li.level2 a.current span.bg,
+.background-brown #menu a.level3:hover span.bg { color: #C43824; }
+
+.background-brown #menu div.fancy div.fancy-3 {	background-image: url(../images/background/brown/menu_fancy.png); }
+
+.background-brown #menu a.level3 span.bg,
+.background-brown #menu span.level3 span.bg {	background-image: url(../images/background/brown/menu_level3_item.png); }
+
+.background-brown div.mod-line ul.menu a.current span.bg,
+.background-brown div.mod-line ul.menu a:hover span.bg,
+.background-brown div.mod-line ul.menu span:hover span.bg { color: #C43824; }
+
+.background-brown div.mod-line ul.menu li.parent a.level1 span.bg,
+.background-brown div.mod-line ul.menu li.parent span.level1 span.bg { background-image: url(../images/background/brown/submenu_level1_parent.png); }
+
+.background-brown div.mod-line ul.menu li.level2 span.bg { background-image: url(../images/background/brown/submenu_level2_item.png); }
+
+/* modules */
+.background-brown div.mod-bookmark h3.header,
+.background-brown div.mod-bookmark span.header-2,
+.background-brown div.mod-bookmark span.header-3 { background-image: url(../images/background/brown/module_bookmark_bg.png); }
+
+.background-brown #left div.mod-banner h3.header,
+.background-brown #right div.mod-banner h3.header { 
+	border-bottom-color: #ffffff;
+	color: #ffffff;
+}
+
+.background-brown div.mod-banner a,
+.background-brown div.mod-banner a { color: #ffffff; text-decoration: underline; }
+
+#page.background-brown #left div.mod-banner a.readmore,
+#page.background-brown #right div.mod-banner a.readmore { 
+	color: #ffffff; 
+	text-decoration: none;
+	background-position: 0 -50px;	
+}
+
+#left.background-brown  div.mod-banner a:hover,
+#right.background-brown  div.mod-banner a:hover,
+#page.background-brown  #left div.mod-banner a.readmore:hover,
+#page.background-brown  #right div.mod-banner a.readmore:hover { color: #C43824; text-shadow: 0 -1px 0 rgba(0,0,0,0.8); }
+
+
+/* joomla */
+#page.background-brown a.readmore { background-image: url(../images/background/brown/readmore.png); }
+
+#page.background-brown a.readmore:link,
+#page.background-brown a.readmore:visited { color: #C43824; }
+
+#page.background-brown a.readmore:hover { color: #818384; }
+
+/* extensions */
+.background-brown #yoo-zoo.blog-noble .items h1.pos-title,
+.background-brown #yoo-zoo.blog-noble .items h1.pos-title a,
+.background-brown #yoo-zoo.blog-noble .item h1.pos-title { color: #C43824; }
+
+/* TEXTURES */
+body.yoopage.texture-noise { background-image: url(../images/texture/texture_noise.png); }
+body.yoopage.texture-flowers { background-image: url(../images/texture/texture_flowers.png); }
+body.yoopage.texture-stripes { background-image: url(../images/texture/texture_stripes.png); }
+body.yoopage.texture-bigstripes { background-image: url(../images/texture/texture_bigstripes.png); }
+body.yoopage.texture-linnen { background-image: url(../images/texture/texture_linnen.png); }
+body.yoopage.texture-linnen.background-ochre { background-image: url(../images/texture/texture_linnenlight.png); }
+
+/* ILLUSTRATIONS */
+.illustration-coffee div#page-body { background: url(../images/illustration/illustration_coffee.png) 50% 0 no-repeat; }
+.illustration-biscuit div#page-body { background: url(../images/illustration/illustration_biscuit.png) 50% 0 no-repeat; }
+.illustration-pen div#page-body { background: url(../images/illustration/illustration_pen.png) 50% 0 no-repeat; }
+
+/* FONTS */
+body.font-lucida,
+.font-lucida h1,
+.font-lucida h2,
+.font-lucida h3,
+.font-lucida h4,
+.font-lucida h5,
+.font-lucida h6 { font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; }
+
+body.font-georgia,
+.font-georgia h1,
+.font-georgia h2,
+.font-georgia h3,
+.font-georgia h4,
+.font-georgia h5,
+.font-georgia h6 { font-family: Georgia, "Times New Roman", Times, serif; }
+
+body.font-trebuchet,
+.font-trebuchet h1,
+.font-trebuchet h2,
+.font-trebuchet h3,
+.font-trebuchet h4,
+.font-trebuchet h5,
+.font-trebuchet h6 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; }

@@ -1,0 +1,25 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+.webfonts #menu a.level1 span.bg,
+.webfonts #menu span.level1 span.bg { 
+	font-family: 'Yanone Kaffeesatz';
+	font-weight: lighter;
+	font-size: 24px;
+}
+
+.webfonts #menu li.active a.level1 span.bg,
+.webfonts #menu li.active span.level1 span.bg { font-weight: normal; }
+
+.webfonts #menu a.level1 span.title,
+.webfonts #menu span.level1 span.title { font-size: 18px; }
+.webfonts #menu a.level1 span.subtitle,
+.webfonts #menu span.level1 span.subtitle { font-size: 13px; line-height: 13px; }
+
+.webfonts .joomla .headline h1.title,
+.webfonts .module h3.header { font-family: 'Lobster', Arial, sans-serif; }
+
+.webfonts .joomla .headline h1.title { font-size: 28px; line-height: 30px; }
+.webfonts .module h3.header { font-size: 24px; line-height: 26px; }
+
+#yoo-zoo.blog-sans .items h1.pos-title,
+#yoo-zoo.blog-sans .item h1.pos-title { font-family: 'Lobster', Arial, sans-serif; }

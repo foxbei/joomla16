@@ -1,0 +1,47 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* system */
+#system .item > .meta { color: #BFAC90; }
+
+#searchbox { background-image: url(../../images/variations/green/yoosearch/searchbox_bg.png); }
+
+#searchbox input { color: #BFAC90; }
+
+#searchbox button.magnifier { background-image: url(../../images/variations/green/yoosearch/magnifier_icon.png); }
+#searchbox button.reset { background-image: url(../../images/variations/green/yoosearch/close_icon.png); }
+#searchbox .loading button.reset { background-image: url(../../images/variations/green/yoosearch/loader_icon.gif); }
+
+#searchbox .results {
+	border-color: #3F3F33;
+	background-color: #555644;
+}
+
+#searchbox .results li.results-header,
+#searchbox .results li.more-results {
+	border-color: #3F3F33;
+	background-image: url(../../images/variations/green/yoosearch/header_bg.png);
+	color: #FFFFDF;
+	text-shadow: 0px -1px 1px rgba(0,0,0,1);
+}
+#searchbox .results li.result { border: none; }
+#searchbox .results li.result.selected { background-color: #61634C; }
+#searchbox .results li.result.selected h3 { color: #BFAC90; }
+
+table.zebra th,
+table.zebra td { border-color: #62614D; }
+table.zebra tbody tr.odd { background: #4E4B3B; }
+table.zebra tbody tr:nth-of-type(odd) { background: #4E4B3B; }
+table.zebra tbody tr.even { background: #524F3E; }
+table.zebra tbody tr:nth-of-type(even) { background: #524F3E; }
+
+ul.line > li { border-color: #797860; }
+
+.pagination a,
+.pagination strong {  border-color: #8D9173; }
+
+#system div.article-separator,
+#system div.article-separator-2,
+#system div.article-separator-3 { background-image: url(../../images/variations/green/article_separator.png); }
+
+/* custom */
+#page #maintop div.frontpage1 { background-image: url(../../../../images/yootheme/green1.jpg); }

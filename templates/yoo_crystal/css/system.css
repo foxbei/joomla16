@@ -1,0 +1,153 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/system.css);
+@import url(../warp/systems/joomla.1.6/css/system.css);
+
+/*
+ * item
+ */
+
+#system .item > .meta {	color: #C8C8C8; }
+ 
+#system .items .item,
+#system .item-list { border-color: #0C0C0C; }
+
+/*
+ * Joomla 1.6 only
+ */
+ 
+#system .items.leading { border-color: #0C0C0C; }
+
+ 
+#breadcrumbs span {
+	height: 30px;
+	padding: 0px 30px 0px 0px;
+	background: url(../images/breadcrumbs.png) 100% 50% no-repeat;
+}
+
+/*
+ * search
+ */
+
+#searchbox {
+	width: 150px;
+	height: 18px;
+	padding: 1px 0px 1px 0px;
+	margin: 0px;
+	background: url(../images/searchbox_bg.png) 0 0 no-repeat;
+}
+
+#searchbox:hover { background: url(../images/searchbox_bg.png) 0 -20px no-repeat; }
+
+#searchbox input {
+	width: 114px;
+	height: 18px;
+	line-height: 18px;
+	color: #646464;
+}
+
+#searchbox button {
+	width: 18px;
+	height: 18px;
+}
+
+#searchbox button.magnifier { background: url(../images/search_magnifier_icon.png) 0 0 no-repeat; }
+
+#searchbox .results {
+	top: 26px;
+	right: -11px;
+	border-color: #1F2123;
+	border-top: none;
+	background: #0C0C0C;
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+#searchbox .results li.results-header,
+#searchbox .results li.more-results {
+	border: none;
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,1);
+}
+#searchbox .results li.results-header {
+	height: 25px;
+	line-height: 25px;
+	background: url(../images/yoosearch/header_bg.png) 0 0 repeat-x;
+}
+
+#searchbox .results li.more-results {
+	height: 28px;
+	line-height: 28px;
+	background: url(../images/yoosearch/resultbox_b.png) 0 0 repeat-x;
+}
+
+#searchbox .results li.result { border: none; }
+
+#searchbox .results li.result.selected { background: #1F2123; }
+
+/*
+ * table zebra
+ */
+ 
+table.zebra th,
+table.zebra td {
+	padding: 9px;
+	border-bottom: 1px solid #323232;
+}
+
+table.zebra tbody tr.odd { background: #141414; }
+table.zebra tbody tr:nth-of-type(odd) { background: #141414; }
+
+table.zebra tbody tr.even { background: #1E1E1E; }
+table.zebra tbody tr:nth-of-type(even) { background: #1E1E1E; }
+
+/*
+ * list style
+ */
+
+ul.line > li {
+	border-top-style: solid;
+	border-color: #0C0C0C;
+}
+
+/*
+ * pagination
+ */
+
+div.pagination { margin-bottom: 10px; }
+
+.pagination a,
+.pagination strong { border-color: #0C0C0C; }
+
+/*
+ * breadcrumbs
+ */
+
+.breadcrumbs a,
+.breadcrumbs > span { margin-right: 0px; }
+
+/*
+ * readmore button
+ */
+
+p.readmore { overflow: hidden; }
+div.module p.readmore {	margin-bottom: 0px; }
+
+a.readmore {
+	width: 110px;
+	height: 28px;
+	padding: 0px;
+	border: none;
+	background: url(../images/readmore.png) 0 0 no-repeat;
+	line-height: 28px;
+	text-indent: 10px;
+	font-size: 90%;
+}
+
+#page a.readmore { color: #c8c8c8; }
+
+#page a.readmore:hover {
+	background-position: 0 -34px;
+	color: #ffffff;
+}

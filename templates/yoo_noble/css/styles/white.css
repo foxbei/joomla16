@@ -1,0 +1,81 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+
+/* layout */
+
+.main-wrapper-1,
+.main-wrapper-2 { background-image: url(../../images/styles/white/wrapper_bg.png); }
+
+.content-wrapper-1 { background-color: #FCFDFE; }
+.content-wrapper-2 { 
+	border-color: #EBECED;
+	background-color: #FFFFFF;
+}
+
+.column-contentleft div.contentleft-bg,
+.column-contentright div.contentright-bg { background-image: url(../../images/styles/white/content_wrapper_bg.png); }
+
+/* menus */
+
+#menu .dropdown-1,
+#menu .dropdown-2 {	background-image: url(../../images/styles/white/menu_dropdown_edges.png); }
+
+#menu .dropdown-3 {	background-color: #FFFFFF; }
+
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/styles/white/menu_dropdown_corners.png); }
+
+div.mod-line ul.menu a.level1 span.bg,
+div.mod-line ul.menu span.level1 span.bg { border-top-color: #DCDDDE; }
+
+.fancyfollower { background-image: url(../../images/styles/white/submenu_level1_item_hover.png); }
+#contentleft .fancyfollower { background-image: url(../../images/styles/white/submenu_level1_item_hover_left.png); }
+
+/* modules */
+
+div.mod-box div.box-3 { background-color: #F7F7F7; }
+#contentright div.mod-box div.box-3,
+#contentleft div.mod-box div.box-3 { background-color: #F2F3F4; }
+
+div.mod-box h3.header,
+div.mod-line h3.header { border-bottom-color: #DCDDDE; }
+
+#contentleft div.mod-line.first h3.header,
+#contentright div.mod-line.first h3.header { border-top-color: #DCDDDE; }
+
+div.mod-border div.box-1 { border-color: #EBEBEB; }
+
+#left div.mod-border div.box-1,
+#right div.mod-border div.box-1 { border-color: #E5E6E7; }
+
+/* extensions */
+
+#page div.default div.yoo-search div.searchbox { background-image: url(../../images/styles/white/yoosearch/searchbox_bg.png); }
+#page div.default div.yoo-search div.resultbox-bg {
+	border-left-color: #C5C6C7;
+	border-right-color: #C5C6C7;
+	background: #FFFFFF;
+}
+#page div.default div.yoo-search div.resultbox-bl { background-image: url(../../images/styles/white/yoosearch/resultbox_bl.png); }
+#page div.default div.yoo-search div.resultbox-br { background-image: url(../../images/styles/white/yoosearch/resultbox_br.png); }
+#page div.default div.yoo-search div.resultbox-b { background-image: url(../../images/styles/white/yoosearch/resultbox_b.png); }
+#page div.default div.yoo-search span.search-more { background-image: url(../../images/styles/white/yoosearch/more_icon.png); }
+#page div.default div.yoo-search h3.search-header { background-image: url(../../images/styles/white/yoosearch/header_bg.png); }
+#page div.default div.yoo-search .resultbox-bg a { background-color: #FFFFFF; border-bottom-color: #E4E4E2;  }
+#page div.default div.yoo-search .resultbox-bg a:hover { background-color: #FCFDFE; }
+
+#page #yoo-zoo.blog-noble div.pos-date { background-image: url(../../images/styles/white/zoo/date_bg.png); }
+
+/* custom */
+
+#logo {	
+	left: -20px;
+	top: 20px;
+}
+
+#page #logo a.logo-icon {
+	width: 165px;
+	height: 165px;
+	background: url(../../../../images/yootheme/logo_white.png) 0 0 no-repeat;
+}

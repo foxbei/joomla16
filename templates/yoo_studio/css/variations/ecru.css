@@ -1,0 +1,203 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+body.yoopage { background: #676451; }
+#page-body { background: #7A7763 url(../../images/variations/ecru/page_body_bg.jpg) 50% 0 no-repeat; }
+#page-footer { background-image: url(../../images/variations/ecru/page_footer_bg.png); }
+
+div.content-wrapper-t1,
+div.content-wrapper-t2,
+div.content-wrapper-t3,
+div.content-wrapper-b1,
+div.content-wrapper-b2,
+div.content-wrapper-b3 { background-image: url(../../images/variations/ecru/content_wrapper_corners.png); }
+div.content-wrapper-1,
+div.content-wrapper-2 {	background-image: url(../../images/variations/ecru/content_wrapper_edges_shadow.png); }
+.column-left div.content-wrapper-3,
+.column-right div.content-wrapper-4 { background-image: url(../../images/variations/ecru/content_wrapper_edges_with.png); }
+
+/* typography */
+h1,
+#page h1 a,
+h3,
+h5,
+.contentheading,
+.componentheading { color: #676554; }
+
+h2, h4, h6 { color: #B9A473; }
+
+a:link,
+a:visited { color: #AA5B35; }
+a:hover { color: #B9A473; }
+
+/* menus */
+#menu .dropdown-t1,
+#menu .dropdown-t2,
+#menu .dropdown-t3,
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/variations/ecru/menu_dropdown_corners.png); }
+#menu .dropdown-1,
+#menu .dropdown-2 { background-image: url(../../images/variations/ecru/menu_dropdown_edges.png); }
+#menu .dropdown-3,
+#menu a.level2,
+#menu li.level2.parent .hover-box1 { background-color: #D8D7C7; }
+#menu a.level1 span.bg,
+#menu span.level1 span.bg,
+#menu a.level2 span.bg,
+#menu span.level2 span.bg,
+#menu a.level3 span.bg,
+#menu span.level3 span.bg { color: #676554; }
+#menu li.level2.parent .hover-box1,
+#menu li.level2.parent .hover-box2,
+#menu li.level2.parent .hover-box3,
+#menu li.level2.parent .hover-box4 { background-image: url(../../images/variations/ecru/menu_level2_item.png); }
+#menu li.level2.parent .hover-box1:hover,
+#menu li.level2.parent .hover-box1:hover .hover-box2,
+#menu li.level2.parent .hover-box1:hover .hover-box3,
+#menu li.level2.parent .hover-box1:hover .hover-box4 { background-image: url(../../images/variations/ecru/menu_level2_item_hover.png); }
+#menu li.level2.parent.separator .hover-box1:hover,
+#menu li.level2.parent.separator .hover-box1:hover .hover-box2,
+#menu li.level2.parent.separator .hover-box1:hover .hover-box3,
+#menu li.level2.parent.separator .hover-box1:hover .hover-box4 { background-image: url(../../images/variations/ecru/menu_level2_item.png); }
+
+#menu div.fancy div.fancy-1,
+#menu div.fancy div.fancy-2,
+#menu div.fancy div.fancy-3 { background-image: url(../../images/variations/ecru/menu_fancy.png); }
+
+div.mod-sidebar ul.menu li.level2 a { background-color: #313128; }
+
+/* modules */
+div.mod-headerbar span { color: #676554; }
+div.mod-headerbar a { color: #dcdcdc; }
+
+div.mod-gradient div.box-1,
+.component-bg,
+div.joomla div.blog div.description,
+div.joomla div.leadingarticles div.item-bg,
+div.joomla div.teaserarticles div.item-bg { background-image: url(../../images/variations/ecru/module_gradient.png); }
+
+div.mod-layer div.box-1 { background: #DBD9CC url(../../images/variations/ecru/module_layer_b.png) 0 100% repeat-x; }
+div.mod-layer div.box-2 { background-image: url(../../images/variations/ecru/module_layer_t.png); }
+
+div.mod-sidebar div.box-1,
+div.mod-sidebar h3.header,
+div.mod-sidebar span.header-2,
+div.mod-sidebar span.header-3 { background-image: url(../../images/variations/ecru/module_sidebar.png); }
+
+/* joomla */
+a.readmore { background-image: url(../../images/variations/ecru/readmore.png); }
+
+/* layout */
+body.yoopage { background: #676451; }
+#page-body { background: #7A7763 url(../../images/variations/ecru/page_body_bg.jpg) 50% 0 no-repeat; }
+#page-footer { background-image: url(../../images/variations/ecru/page_footer_bg.png); }
+
+div.content-wrapper-t1,
+div.content-wrapper-t2,
+div.content-wrapper-t3,
+div.content-wrapper-b1,
+div.content-wrapper-b2,
+div.content-wrapper-b3 { background-image: url(../../images/variations/ecru/content_wrapper_corners.png); }
+div.content-wrapper-1,
+div.content-wrapper-2 {	background-image: url(../../images/variations/ecru/content_wrapper_edges_shadow.png); }
+.column-left div.content-wrapper-3,
+.column-right div.content-wrapper-4 { background-image: url(../../images/variations/ecru/content_wrapper_edges_with.png); }
+
+/* typography */
+h1,
+#page h1 a,
+h3,
+h5,
+.contentheading,
+.componentheading { color: #676554; }
+
+h2, h4, h6 { color: #B9A473; }
+
+a:link,
+a:visited { color: #AA5B35; }
+a:hover { color: #B9A473; }
+
+/* menus */
+#menu .dropdown-t1,
+#menu .dropdown-t2,
+#menu .dropdown-t3,
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/variations/ecru/menu_dropdown_corners.png); }
+#menu .dropdown-1,
+#menu .dropdown-2 { background-image: url(../../images/variations/ecru/menu_dropdown_edges.png); }
+#menu .dropdown-3,
+#menu a.level2,
+#menu li.level2.parent .hover-box1 { background-color: #D8D7C7; }
+#menu a.level1 span.bg,
+#menu span.level1 span.bg,
+#menu a.level2 span.bg,
+#menu span.level2 span.bg,
+#menu a.level3 span.bg,
+#menu span.level3 span.bg { color: #676554; }
+#menu li.level2.parent .hover-box1,
+#menu li.level2.parent .hover-box2,
+#menu li.level2.parent .hover-box3,
+#menu li.level2.parent .hover-box4 { background-image: url(../../images/variations/ecru/menu_level2_item.png); }
+#menu li.level2.parent .hover-box1:hover,
+#menu li.level2.parent .hover-box1:hover .hover-box2,
+#menu li.level2.parent .hover-box1:hover .hover-box3,
+#menu li.level2.parent .hover-box1:hover .hover-box4 { background-image: url(../../images/variations/ecru/menu_level2_item_hover.png); }
+#menu li.level2.parent.separator .hover-box1:hover,
+#menu li.level2.parent.separator .hover-box1:hover .hover-box2,
+#menu li.level2.parent.separator .hover-box1:hover .hover-box3,
+#menu li.level2.parent.separator .hover-box1:hover .hover-box4 { background-image: url(../../images/variations/ecru/menu_level2_item.png); }
+
+#menu div.fancy div.fancy-1,
+#menu div.fancy div.fancy-2,
+#menu div.fancy div.fancy-3 { background-image: url(../../images/variations/ecru/menu_fancy.png); }
+
+div.mod-sidebar ul.menu li.level2 a { background-color: #313128; }
+
+/* modules */
+div.mod-headerbar span { color: #676554; }
+div.mod-headerbar a { color: #dcdcdc; }
+
+div.mod-gradient div.box-1,
+.component-bg,
+div.joomla div.blog div.description,
+div.joomla div.leadingarticles div.item-bg,
+div.joomla div.teaserarticles div.item-bg { background-image: url(../../images/variations/ecru/module_gradient.png); }
+
+div.mod-layer div.box-1 { background: #DBD9CC url(../../images/variations/ecru/module_layer_b.png) 0 100% repeat-x; }
+div.mod-layer div.box-2 { background-image: url(../../images/variations/ecru/module_layer_t.png); }
+
+div.mod-sidebar div.box-1,
+div.mod-sidebar h3.header,
+div.mod-sidebar span.header-2,
+div.mod-sidebar span.header-3 { background-image: url(../../images/variations/ecru/module_sidebar.png); }
+
+/* system */
+a.readmore { background-image: url(../../images/variations/ecru/readmore.png); }
+
+#searchbox .results {
+	border-color: #9f9982;
+	background: #D8D7C7;
+}
+
+#searchbox .results li.results-header { background-image: url(../../images/variations/ecru/yoosearch/header_bg.png); }
+#searchbox .results li.result.selected { background-color: #cdccb7; }
+#searchbox .results li.more-results { background: #DBD9CC; }
+
+.sidebar-search #searchbox input { color: #c8c8c8 }
+.sidebar-search #searchbox:hover input,
+.sidebar-search #searchbox input:focus { color: #ffffff; }
+.sidebar-search #searchbox .loading button.reset { background-image: url(../../images/variations/ecru/yoosearch/sidebar_loader_icon.gif); }
+
+.sidebar-search #searchbox .results {
+	border-color: #21211B;
+	background: #2C2C23;
+}
+
+.sidebar-search #searchbox .results li.results-header { background-image: url(../../images/variations/brown/yoosearch/sidebar_header_bg.png); }
+.sidebar-search #searchbox .results li.result.selected { background-color: #21211a; }
+.sidebar-search #searchbox .results li.more-results { background: #2C2C23; }
+
+/* custom */
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_ecru.png); }

@@ -1,0 +1,115 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+
+/* layout */
+
+body { color: #4F4E42; }
+
+#breadcrumbs a,
+#breadcrumbs span.separator { color: #8B8978; }
+
+.main-wrapper-1,
+.main-wrapper-2 { background-image: url(../../images/styles/yellow/wrapper_bg.png); }
+
+.content-wrapper-1 { background-color: #EEDFBB; }
+.content-wrapper-2 { 
+	border-color: #DDD1A7;
+	background-color: #F9EECC;
+}
+
+.column-contentleft div.contentleft-bg,
+.column-contentright div.contentright-bg { background-image: url(../../images/styles/yellow/content_wrapper_bg.png); }
+
+/* typography */
+
+em.box { 
+	border-color: #CCBB88;
+	background: #FCF8E9;
+}
+
+ul.table li:nth-child(odd) { background: #FBF4DE; }
+ul.table li:nth-child(even) { background: #FDF8EB; }
+
+table.listing thead th,
+table.listing tbody td { border-bottom-color: #E0D6B7; }
+table.listing tr.odd td { background: #FBF4DE; }
+table.listing tr.even td { background: #FDF8EB; }
+
+/* menus */
+
+#toolbar .menu li a,
+#menu a.level1 span.bg,
+#menu span.level1 span.bg,
+#menu a.level2 span.bg,
+#menu span.level2 span.bg,
+#menu a.level3 span.bg,
+#menu span.level3 span.bg,
+div.mod-line ul.menu span.bg { color: #5B5946; }
+
+#menu a.level1 span.bg,
+#menu span.level1 span.bg {	text-shadow: 0px 1px 0px rgba(255,255,255,0.6); }
+
+#menu .dropdown-1,
+#menu .dropdown-2 {	background-image: url(../../images/styles/yellow/menu_dropdown_edges.png); }
+
+#menu .dropdown-3 {	background-color: #FBF2D9; }
+
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/styles/yellow/menu_dropdown_corners.png); }
+
+div.mod-line ul.menu a.level1 span.bg,
+div.mod-line ul.menu span.level1 span.bg { border-top-color: #D7CDB1; }
+
+.fancyfollower { background-image: url(../../images/styles/yellow/submenu_level1_item_hover.png); }
+#contentleft .fancyfollower { background-image: url(../../images/styles/yellow/submenu_level1_item_hover_left.png); }
+
+/* modules */
+
+div.mod-box div.box-3 { background-color: #F2E7C7; }
+#contentright div.mod-box div.box-3,
+#contentleft div.mod-box div.box-3 { background-color: #ECE0BE; }
+
+div.mod-box h3.header,
+div.mod-line h3.header { border-bottom-color: #D1C8AD; }
+
+#contentleft div.mod-line.first h3.header,
+#contentright div.mod-line.first h3.header { border-top-color: #D1C8AD; }
+
+div.mod-border div.box-1 { border-color: #E0D6B7; }
+
+#left div.mod-border div.box-1,
+#right div.mod-border div.box-1 { border-color: #DACFAF; }
+
+/* joomla */
+
+div.joomla table.joomlatable tr.even td {
+	background: #FDF8EB;
+	border-bottom-color: #FDF8EB;
+}
+
+div.joomla table.joomlatable tr.odd td {
+	background: #FBF4DE;
+	border-bottom-color: #FDF8EB;
+}
+
+/* extensions */
+
+#page div.default div.yoo-search div.searchbox { background-image: url(../../images/styles/yellow/yoosearch/searchbox_bg.png); }
+#page div.default div.yoo-search div.resultbox-bg {
+	border-left-color: #DBD2B7;
+	border-right-color: #DBD2B7;
+	background: #FBF2D9;
+}
+#page div.default div.yoo-search div.resultbox-bl { background-image: url(../../images/styles/yellow/yoosearch/resultbox_bl.png); }
+#page div.default div.yoo-search div.resultbox-br { background-image: url(../../images/styles/yellow/yoosearch/resultbox_br.png); }
+#page div.default div.yoo-search div.resultbox-b { background-image: url(../../images/styles/yellow/yoosearch/resultbox_b.png); }
+#page div.default div.yoo-search span.search-more { background-image: url(../../images/styles/yellow/yoosearch/more_icon.png); }
+#page div.default div.yoo-search h3.search-header { background-image: url(../../images/styles/yellow/yoosearch/header_bg.png); }
+#page div.default div.yoo-search .resultbox-bg a { background-color: #FBF2D9; border-bottom-color: #E9E1CA;  }
+#page div.default div.yoo-search .resultbox-bg a:hover { background-color: #FEFCF3; }
+
+#page #yoo-zoo.blog-noble div.pos-date { background-image: url(../../images/styles/yellow/zoo/date_bg.png); }
+
+#yoo-zoo.blog-noble .items h2.pos-subtitle,
+#yoo-zoo.blog-noble .item h2.pos-subtitle { text-shadow: none; }

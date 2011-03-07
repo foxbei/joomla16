@@ -1,0 +1,30 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * This CSS file is for customization purpose only
+ */ 
+
+#logo a.logo-icon {
+	display: block;
+	width: 325px;
+	height: 104px;
+	background: url(../../../images/yootheme/logo.png) 0 0 no-repeat;
+}
+
+#top .yoo-carousel div.frontpage {
+	width: 850px;
+	height: 225px;
+	background: url(../../../images/yootheme/yoocarousel/business.jpg) 0 0 no-repeat;
+}
+
+#menu li.item1 div.dropdown a.level2 span.bg,
+#menu li.item1 div.dropdown span.level2 span.bg { min-height: 70px; }
+
+#menu li.item1 div.dropdown a.level2 span.icon,
+#menu li.item1 div.dropdown span.level2 span.icon {
+	padding: 0px 5px 0px 168px;
+	text-indent: 0px;
+}
+
+#menu li.item1 div.dropdown a.level2 span.title,
+#menu li.item1 div.dropdown span.level2 span.title { line-height: 38px; }

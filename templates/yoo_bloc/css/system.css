@@ -1,0 +1,88 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/system.css);
+@import url(../warp/systems/joomla.1.6/css/system.css);
+
+/*
+ * searchbox
+ */
+ 
+#searchbox {
+	height: 26px;
+	background: url(../images/yoosearch/searchbox_bg.png) 0 0 no-repeat;
+}
+
+#searchbox:hover  { background-position: 0 -31px; }
+
+#searchbox input {
+	width: 64px;
+	height: 26px;
+	padding: 0px 0px 0px 4px;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+
+#searchbox:hover input,
+#searchbox input:focus { color: #ffffff; }
+
+#searchbox button {
+	width: 26px;
+	height: 26px;
+}
+
+#searchbox button.magnifier { background: url(../images/yoosearch/magnifier_icon.png) 50% 50% no-repeat; }
+#searchbox button.reset { background: url(../images/yoosearch/close_icon.png) 50% 50% no-repeat; }
+#searchbox .loading button.reset { background: url(../images/yoosearch/loader_icon.gif) 50% 50% no-repeat; }
+
+#searchbox .results {
+	top: 36px;
+	border-color: #1E1E1F;
+	border-top: none;
+	background: #3D3E3F;
+}
+
+#searchbox .results li.results-header,
+#searchbox .results li.more-results {
+	height: 30px;
+	border: none;
+	color: #ffffff;
+	background: url(../images/yoosearch/header_bg.png) 0 0 repeat-x;
+	line-height: 30px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+}
+
+#searchbox .results li.result {
+	border: none;
+	background: url(../images/yoosearch/result_item_bg.png) 0 0 repeat-x;
+	text-shadow: 1px 1px 1px #000000;
+	color: #969696;
+}
+
+#searchbox .results li.result:hover,
+#searchbox .results li.result.selected { 
+	background: #333434 url(../images/yoosearch/result_item_bg_hover.png) 0 0 repeat-x;
+	color: #ffffff;
+}
+
+#searchbox .results li.result h3 { color: #ffffff; }
+
+/*
+ * readmore
+ */
+
+a.readmore {
+	width: 123px;
+	height: 23px;
+	border: none;
+	background: url(../images/readmore.png) 0 0 no-repeat;
+	line-height: 23px;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+	color: #646464;
+}
+
+a.readmore:hover { 	
+	background-position: 0 -33px;
+	color: #ffffff;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5), 0px 0px 2px rgba(0, 0, 0, 0.5);
+}

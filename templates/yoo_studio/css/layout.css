@@ -1,0 +1,356 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+ 
+ 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 150%;
+  color: #646464;
+}
+
+#left,
+#right,
+#bottom,
+#footer,
+#top {
+  color: #c8c8c8;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+ 
+
+.wrapper { margin: auto; }
+
+#header {
+  position: relative;
+  z-index: 10;
+  clear: both;
+}
+
+#top {
+  margin: 0px -7px 0px -7px;
+  padding-bottom: 15px;
+  overflow: hidden;
+  clear: both;
+}
+
+#middle {
+  clear: both;
+  min-height: 300px;
+}
+
+#bottom {
+  margin: 0px -15px 0px -15px;
+  padding: 0px 0px 20px 0px;
+  overflow: hidden;
+  clear: both;
+}
+
+#footer {
+  position: relative;
+  padding: 0px 0px 20px 0px;
+  clear: both;
+  text-align: center;
+}
+
+ 
+ 
+#middle {
+  width: 100%;  
+   
+  overflow: hidden;  
+  position: relative;  
+}
+
+#middle-expand {
+  width: 200%;
+}
+
+ 
+#main {
+  position: relative;
+  left: 50%;
+  width: 50%;
+  float: left;
+}
+
+#main-shift {
+  position: relative;
+  left: -100%;
+   
+   
+  overflow: hidden;
+}
+
+ 
+#left {
+  position: relative;
+  left: -50%;
+   
+  float: left;
+  overflow:hidden;
+}
+
+ 
+#right {
+   
+   
+  float: left;
+  overflow:hidden;
+}
+
+ 
+
+div#maintop {
+  margin: 0px 0px 0px 0px;
+  overflow: hidden;
+}
+
+div#mainbottom {
+  margin: 0px 0px 0px 0px;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+ 
+
+.floatbox { overflow:hidden; }
+
+.float-left { float: left; overflow: hidden; }
+.float-right { float: right; overflow: hidden; }
+
+.width15 { width: 15%; }
+.width18 { width: 18%; }
+.width20 { width: 20%; }
+.width23 { width: 23%; }
+.width25 { width: 25%; }
+.width33 { width: 33%; }
+.width34 { width: 34%; }
+.width35 { width: 35%; }
+.width40 { width: 40%; }
+.width46 { width: 46%; }
+.width50 { width: 50%; }
+.width54 { width: 54%; }
+.width65 { width: 65%; }
+.width75 { width: 75%; }
+.width100 { width: 100%; }
+
+ 
+
+body.yoopage { background: #2E3C48; }
+#page-body {
+  padding-bottom: 30px;
+  background: #3C4C5A url(../images/page_body_bg.png) 50% 0 no-repeat;
+}
+#page-footer {
+  padding-top: 35px;
+  min-height: 35px;
+  background: url(../images/page_footer_bg.png) 50% 0 repeat-x;
+}
+
+ 
+
+#absolute {
+  position: absolute;
+  z-index: 15;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+ 
+#breadcrumbs {
+  padding: 10px 0px 0px 20px;
+  overflow: hidden;
+  font-size: 10px;
+}
+
+#breadcrumbs a,
+#breadcrumbs span {
+  display: block;
+  float: left;
+}
+
+#breadcrumbs a,
+#breadcrumbs span.separator {
+  text-decoration: none;
+  color: #646464;
+}
+
+#breadcrumbs span.current { color: #969696; }
+
+#breadcrumbs .box-1 { 
+  margin-right: 5px;
+  background: url(../images/breadcrumbs.png) 0 0 no-repeat;
+}
+
+#breadcrumbs .box-2 {
+  padding: 0px 10px 0px 10px;
+  background: url(../images/breadcrumbs.png) 100% -25px no-repeat;
+}
+
+#breadcrumbs .box-3 {
+  height: 20px;
+  background: url(../images/breadcrumbs.png) 0 -50px repeat-x;
+}
+
+#breadcrumbs a.box-1:hover  {
+  background-position: 0 -75px;
+  color: #404040;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
+}
+#breadcrumbs a:hover .box-2 { background-position: 100% -100px; }
+#breadcrumbs a:hover .box-3 { background-position: 0 -125px; }
+
+
+
+ 
+
+ 
+#toolbar {
+  height: 25px;
+  padding-top: 5px;
+  overflow: hidden;
+  line-height: 30px;
+  font-size: 9px;
+  color: #ffffff;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#toolbar a { color: #ffffff; }
+
+#date {
+  margin: 0px 10px 0px 0px;
+  float: left;
+}
+
+#headerbar {
+  min-height: 120px;
+  padding: 0px 0px 0px 300px;
+  overflow: hidden;
+}
+
+.menubar {
+  position: relative;
+  z-index: 10;
+}
+
+ 
+#logo {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+
+#menu {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  z-index: 11;
+}
+.column-left #menu { left: 300px; }
+
+#search {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  z-index: 12;
+  width: 266px;
+  height: 45px;
+  padding: 15px 0px 0px 20px;
+  background: url(../images/searchbox.png) 0 0 no-repeat;
+}
+.column-right #search { background: none; }
+.column-left #search {
+  left: 5px;
+  right: auto;
+  background: none;
+}
+
+#banner {
+  position: absolute;
+  top: 150px;
+  right: -15px;
+  width: 0px;
+  z-index: 3;
+}
+
+ 
+
+#footer a.anchor {
+  position: absolute;
+  right: 0px;
+  top: 2px;
+  width: 11px;
+  height: 6px;
+  background: url(../images/footer_anchor.png) 0 0 no-repeat;
+  display: block;
+  text-decoration: none;
+}
+
+#footer a.anchor:hover { background-position: 0 -15px; }
+
+#footer a { color: #c8c8c8; }
+#footer a:hover { color: #ffffff; }
+
+ 
+
+div.content-wrapper-t1 { background: url(../images/content_wrapper_corners.png) 0 0 no-repeat; }
+
+div.content-wrapper-t2 {
+  padding: 0px 290px 0px 290px;
+  background: url(../images/content_wrapper_corners.png) 100% -80px no-repeat;
+}
+
+div.content-wrapper-t3 {
+  height: 75px;
+  background: url(../images/content_wrapper_corners.png) 0 -160px repeat-x;
+}
+
+div.content-wrapper-1 { background: url(../images/content_wrapper_edges_shadow.png) 0 0 repeat-y; }
+
+div.content-wrapper-2 {
+  padding: 0px 5px 0px 5px;
+  background: url(../images/content_wrapper_edges_shadow.png) 100% 0 repeat-y;
+}
+
+div.content-wrapper-3 { background: #FAFBFC; }
+
+div.content-wrapper-4 {
+   
+}
+
+div.content-wrapper-b1 { background: url(../images/content_wrapper_corners.png) 0 -240px no-repeat; }
+
+div.content-wrapper-b2 {
+  padding: 0px 290px 0px 290px;
+  background: url(../images/content_wrapper_corners.png) 100% -255px no-repeat;
+}
+
+div.content-wrapper-b3 {
+  height: 10px;
+  background: url(../images/content_wrapper_corners.png) 0 -270px repeat-x;
+}
+
+.column-left div.content-wrapper-t1 { background-position: 0 -285px; }
+.column-left div.content-wrapper-3 { background-image: url(../images/content_wrapper_edges_with.png); }
+.column-left div.content-wrapper-b1 { background-position: 0 -445px; }
+
+.column-right div.content-wrapper-t2 { background-position: 100% -365px; }
+.column-right div.content-wrapper-4 { background: url(../images/content_wrapper_edges_with.png) 100% 0 repeat-y; }
+.column-right div.content-wrapper-b2 { background-position: 100% -460px; }
+
+#left,
+#right { background: url(../images/content_wrapper_sidebar.png) 0 0 repeat-x; }
+
+.component-bg {
+  margin-bottom: -2px;
+  padding: 20px 20px 0px 20px;
+  background: url(../images/module_gradient.png) 0 100% repeat-x;
+}
+
+.component-bg.last {
+  margin: 0px;
+  background: none;
+}

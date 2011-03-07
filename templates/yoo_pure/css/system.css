@@ -1,0 +1,222 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/system.css);
+@import url(../warp/systems/joomla.1.6/css/system.css);
+
+/*
+ * item
+ */
+ 
+#system .title { 
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#system .item > .date {
+	margin-right: 10px;
+	width: 34px;
+	height: 34px;
+	background: #333435;
+	float: left;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#system .item > .date .month { 
+	margin: 3px 3px 0px 3px;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	line-height: 9px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+#system .item > .date .day {
+	margin-top: 1px;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 18px;
+	letter-spacing: 1px;
+}
+
+#system .item > .date + .title { 
+	margin: 0 0 15px 0;
+	font-size: 30px;
+	line-height: 34px;
+}
+
+#system .item > .meta {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	color: #858586;
+	line-height: 16px;
+}
+
+#system .item > .meta > span { 
+	display: block;
+	letter-spacing: 1px;
+}
+#system .item > .meta > span > span { 
+	color: #333435;
+	text-transform: uppercase;
+}
+
+#system .items .item { border-color: #E1E1E2; }
+
+/* Joomla 1.5 only */
+#system .item > .icon { margin-top: 10px; }
+
+#system .items.leading,
+#system .item-list { border-color: #E1E1E2; }
+
+/*
+ * searchbox
+ */
+
+#searchbox {
+	width: 163px;
+	height: 28px;
+	border: 1px solid #EDEDED;
+	background: #FCFDFE;
+}
+#searchbox:hover  { background: #ffffff; }
+
+#searchbox input {
+	width: 113px;
+	height: 28px;
+	color: #595959;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+#searchbox button { height: 28px; }
+
+#searchbox button.magnifier {
+	width: 28px;
+	background: url(../images/searchbox_magnifier.png) 50% 50% no-repeat;
+}
+
+#searchbox .results {
+	top: 45px;
+	right: -16px;
+	border-color: #EDEEEF;
+	border-top: none;
+	background: #FFFFFF;
+}
+
+#searchbox .results li.results-header,
+#searchbox .results li.more-results {
+	height: 30px;
+	line-height: 30px;
+	background: #333435;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+#searchbox .results li.results-header { border-bottom: none; }
+
+#searchbox .results li.result { 
+	border-color: #E5E5E5;
+	color: #838383;
+}
+#searchbox .results li.result.selected { 
+	color: #FF3399;
+	background-color: #FCFDFE;
+}
+
+#searchbox .results li.result h3 { color: #545557; }
+#searchbox .results li.result.selected h3 {	color: #000000; }
+
+#searchbox .results li.more-results {
+	padding-left: 10px;
+	border-top: none;
+	font-size: 14px;
+	background: #333435 url(../images/searchbox_more_icon.png) 15px 50% no-repeat;
+}
+#searchbox .results li.more-results:hover { background-color: #FF3399; }
+
+/*
+ * table zebra
+ */
+ 
+table.zebra th,
+table.zebra td {
+	padding: 9px;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+table.zebra tbody tr.odd { background: #EFF0F1; }
+table.zebra tbody tr:nth-of-type(odd) { background: #EFF0F1; }
+
+table.zebra tbody tr.even { background: #FFFFFF; }
+table.zebra tbody tr:nth-of-type(even) { background: #FFFFFF; }
+
+/*
+ * list style line
+ */
+ 
+ul.line li a { text-decoration: none; }
+
+/*
+ * pagination
+ */
+
+.pagination a,
+.pagination strong {
+	border-color: #E1E1E2;
+	background: #ffffff;
+}
+
+.pagination strong { color: #969696; }
+
+.pagination a:hover {
+	color: #ffffff;
+	border-color: #333435;
+	background: #333435;
+}
+
+/*
+ * breadcrumbs
+ */
+ 
+.breadcrumbs {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.breadcrumbs a,
+.breadcrumbs span {
+	margin-right: 8px;
+	padding-right: 15px;
+	background: url(../images/breadcrumbs.png) 100% 60% no-repeat;
+	color: #858586;
+}
+.breadcrumbs a:hover  {	color: #FF3399; }
+
+.breadcrumbs strong { color: #3C3D3E; }
+
+/*
+ * readmore button
+ */
+ 
+a.readmore {
+	height: 25px;
+	width: 120px;
+	padding: 0;
+	border: none;
+	background: url(../images/readmore.png) 0 0 no-repeat;
+	line-height: 25px;
+	text-indent: 8px;
+	font-size: 11px;
+	color: #646566;
+	text-transform: uppercase;
+}
+
+#page a.readmore:hover {
+	background-position: 0 -40px;
+	color: #FFFFFF;
+}

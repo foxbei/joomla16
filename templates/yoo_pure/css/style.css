@@ -1,0 +1,313 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* COLOR-BLUE */
+
+/* layout */
+.color-blue #footer a.anchor { background-image: url(../images/color/blue/footer_anchor.png); } 
+
+/* typography */
+.color-blue h2,
+.color-blue h4,
+.color-blue h6,
+.color-blue a:hover { color: #18B0E2; }
+
+.color-blue ul.links li { background-image: url(../images/color/blue/typography/list_links.png); }
+#page.color-blue ul.links li a:hover { color: #18B0E2; }
+
+.color-blue ul.hoverbox li { background-image: url(../images/color/blue/typography/list_hoverbox.png); }
+.color-blue ul.hoverbox li:hover a,
+.color-blue ul.hoverbox li:hover span.title { color: #18B0E2; }
+
+.color-blue .spotlight.fade .spotlight1 { background-color: #32BBE9; }
+
+/* menus */
+.color-blue #footer .menu li a:hover { color: #18B0E2; }
+
+.color-blue #menu li.level1.active:hover,
+.color-blue #menu li.active.remain { background: #32BBE9; }
+.color-blue #menu li.active a.level1 > span,
+.color-blue #menu li.active span.level1 > span { color: #18B0E2; }
+.color-blue #menu li.parent a.level1,
+.color-blue #menu li.parent span.level1 { background-image: url(../images/color/blue/menu_level1_item_parent.png); }
+
+.color-blue #menu a.level2:hover span.bg,
+.color-blue #menu a.level3:hover span.bg { color:  #18B0E2; }
+
+.color-blue div.mod-line ul.menu a.current span.bg,
+.color-blue div.mod-line ul.menu a:hover span.bg,
+.color-blue div.mod-line ul.menu span:hover span.bg { color: #18B0E2; }
+.color-blue div.mod-line ul.menu li.level1 .level1 { background-image: url(../images/color/blue/submenu_level1_item_hover.png); }
+.color-blue div.mod-line ul.menu li.parent .level1 span.bg { background-image: url(../images/color/blue/submenu_level1_item_parent.png); }
+.color-blue div.mod-line ul.menu li.level2 span.bg { background-image: url(../images/color/blue/submenu_level2_item.png); }
+
+/* modules */
+.color-blue div.mod-box-templatecolor div.box-1,
+.color-blue div.mod-hoverbox-default:hover div.box-1,
+.color-blue div.mod-line-templatecolor:hover div.box-1 { background-color: #32BBE9; }
+.color-blue div.mod-line-texthover:hover div.box-1,
+.color-blue div.mod-line-texthover:hover h3.header span.subtitle { color: #18B0E2; }
+.color-blue div.mod-line-texthover:hover h3.header span.title {
+	border-color: #32BBE9;
+	color: #18B0E2;
+}
+.color-blue div.mod-box-invert:hover a:hover,
+.color-blue div.mod-hoverbox-invert:hover a:hover,
+.color-blue div.mod-line-texthover:hover a,
+.color-blue div.mod-line-invert:hover a:hover { color: #18B0E2; }
+.color-blue div.mod-line-texthover:hover a:hover { color: #000000; }
+.color-blue div.mod-line-texthover:hover a.readmore { color: #ffffff; }
+
+/* system */
+.color-blue #searchbox .results li.result.selected { color: #18B0E2; }
+
+.color-blue #searchbox .results li.more-results:hover { background-color: #32BBE9; }
+.color-blue .breadcrumbs a:hover  {	color: #18B0E2; }
+
+.color-blue a.readmore { background-image: url(../images/color/blue/readmore.png); }
+
+
+/* COLOR-GREEN */
+
+/* layout */
+.color-green #footer a.anchor { background-image: url(../images/color/green/footer_anchor.png); } 
+
+/* typography */
+.color-green h2,
+.color-green h4,
+.color-green h6,
+.color-green a:hover { color: #A9BE14; }
+
+.color-green ul.links li { background-image: url(../images/color/green/typography/list_links.png); }
+#page.color-green ul.links li a:hover { color: #A9BE14; }
+
+.color-green ul.hoverbox li { background-image: url(../images/color/green/typography/list_hoverbox.png); }
+.color-green ul.hoverbox li:hover a,
+.color-green ul.hoverbox li:hover span.title { color: #A9BE14; }
+
+.color-green .spotlight.fade .spotlight1 { background-color: #AFCA17; }
+
+/* menus */
+.color-green #footer .menu li a:hover { color: #A9BE14; }
+
+.color-green #menu li.level1.active:hover,
+.color-green #menu li.active.remain { background: #AFCA17; }
+.color-green #menu li.active a.level1 > span,
+.color-green #menu li.active span.level1 > span { color: #A9BE14; }
+.color-green #menu li.parent a.level1,
+.color-green #menu li.parent span.level1 { background-image: url(../images/color/green/menu_level1_item_parent.png); }
+
+.color-green #menu a.level2:hover span.bg,
+.color-green #menu a.level3:hover span.bg { color:  #A9BE14; }
+
+.color-green div.mod-line ul.menu a.current span.bg,
+.color-green div.mod-line ul.menu a:hover span.bg,
+.color-green div.mod-line ul.menu span:hover span.bg { color: #A9BE14; }
+.color-green div.mod-line ul.menu li.level1 .level1 { background-image: url(../images/color/green/submenu_level1_item_hover.png); }
+.color-green div.mod-line ul.menu li.parent .level1 span.bg { background-image: url(../images/color/green/submenu_level1_item_parent.png); }
+.color-green div.mod-line ul.menu li.level2 span.bg { background-image: url(../images/color/green/submenu_level2_item.png); }
+
+/* modules */
+.color-green div.mod-box-templatecolor div.box-1,
+.color-green div.mod-hoverbox-default:hover div.box-1,
+.color-green div.mod-line-templatecolor:hover div.box-1 { background-color: #AFCA17; }
+.color-green div.mod-line-texthover:hover div.box-1,
+.color-green div.mod-line-texthover:hover h3.header span.subtitle { color: #A9BE14; }
+.color-green div.mod-line-texthover:hover h3.header span.title {
+	border-color: #AFCA17;
+	color: #A9BE14;
+}
+.color-green div.mod-box-invert:hover a:hover,
+.color-green div.mod-hoverbox-invert:hover a:hover,
+.color-green div.mod-line-texthover:hover a,
+.color-green div.mod-line-invert:hover a:hover { color: #A9BE14; }
+.color-green div.mod-line-texthover:hover a:hover { color: #000000; }
+.color-green div.mod-line-texthover:hover a.readmore { color: #ffffff; }
+
+/* system */
+.color-green #searchbox .results li.result.selected { color: #A9BE14; }
+
+.color-green #searchbox .results li.more-results:hover { background-color: #AFCA17; }
+.color-green .breadcrumbs a:hover  { color: #A9BE14; }
+
+.color-green a.readmore { background-image: url(../images/color/green/readmore.png); }
+
+
+/* COLOR-ORANGE */
+
+/* layout */
+.color-orange #footer a.anchor { background-image: url(../images/color/orange/footer_anchor.png); } 
+
+/* typography */
+.color-orange h2,
+.color-orange h4,
+.color-orange h6,
+.color-orange a:hover { color: #FF9900; }
+
+.color-orange ul.links li { background-image: url(../images/color/orange/typography/list_links.png); }
+#page.color-orange ul.links li a:hover { color: #FF9900; }
+
+.color-orange ul.hoverbox li { background-image: url(../images/color/orange/typography/list_hoverbox.png); }
+.color-orange ul.hoverbox li:hover a,
+.color-orange ul.hoverbox li:hover span.title { color: #FF9900; }
+
+.color-orange .spotlight.fade .spotlight1 { background-color: #FF9F11; }
+
+/* menus */
+.color-orange #footer .menu li a:hover { color: #FF9900; }
+
+.color-orange #menu li.level1.active:hover,
+.color-orange #menu li.active.remain { background: #FF9F11; }
+.color-orange #menu li.active a.level1 > span,
+.color-orange #menu li.active span.level1 > span { color: #FF9900; }
+.color-orange #menu li.parent a.level1,
+.color-orange #menu li.parent span.level1 { background-image: url(../images/color/orange/menu_level1_item_parent.png); }
+
+.color-orange #menu a.level2:hover span.bg,
+.color-orange #menu a.level3:hover span.bg { color:  #FF9900; }
+
+.color-orange div.mod-line ul.menu a.current span.bg,
+.color-orange div.mod-line ul.menu a:hover span.bg,
+.color-orange div.mod-line ul.menu span:hover span.bg { color: #FF9900; }
+.color-orange div.mod-line ul.menu li.level1 .level1 { background-image: url(../images/color/orange/submenu_level1_item_hover.png); }
+.color-orange div.mod-line ul.menu li.parent .level1 span.bg { background-image: url(../images/color/orange/submenu_level1_item_parent.png); }
+.color-orange div.mod-line ul.menu li.level2 span.bg { background-image: url(../images/color/orange/submenu_level2_item.png); }
+
+/* modules */
+.color-orange div.mod-box-templatecolor div.box-1,
+.color-orange div.mod-hoverbox-default:hover div.box-1,
+.color-orange div.mod-line-templatecolor:hover div.box-1 { background-color: #FF9F11; }
+.color-orange div.mod-line-texthover:hover div.box-1,
+.color-orange div.mod-line-texthover:hover h3.header span.subtitle { color: #FF9900; }
+.color-orange div.mod-line-texthover:hover h3.header span.title {
+	border-color: #FF9F11;
+	color: #FF9900;
+}
+.color-orange div.mod-box-invert:hover a:hover,
+.color-orange div.mod-hoverbox-invert:hover a:hover,
+.color-orange div.mod-line-texthover:hover a,
+.color-orange div.mod-line-invert:hover a:hover { color: #FF9900; }
+.color-orange div.mod-line-texthover:hover a:hover { color: #000000; }
+.color-orange div.mod-line-texthover:hover a.readmore { color: #ffffff; }
+
+/* system */
+.color-orange #searchbox .results li.result.selected { color: #FF9900; }
+
+.color-orange #searchbox .results li.more-results:hover { background-color: #FF9F11; }
+.color-orange .breadcrumbs a:hover  { color: #FF9900; }
+
+.color-orange a.readmore { background-image: url(../images/color/orange/readmore.png); }
+
+
+/* COLOR-LILAC */
+
+/* layout */
+.color-lilac #footer a.anchor { background-image: url(../images/color/lilac/footer_anchor.png); } 
+
+/* typography */
+.color-lilac h2,
+.color-lilac h4,
+.color-lilac h6,
+.color-lilac a:hover { color: #9468CE; }
+
+.color-lilac ul.links li { background-image: url(../images/color/lilac/typography/list_links.png); }
+#page.color-lilac ul.links li a:hover { color: #9468CE; }
+
+.color-lilac ul.hoverbox li { background-image: url(../images/color/lilac/typography/list_hoverbox.png); }
+.color-lilac ul.hoverbox li:hover a,
+.color-lilac ul.hoverbox li:hover span.title { color: #9468CE; }
+
+.color-lilac .spotlight.fade .spotlight1 { background-color: #9C75D2; }
+
+/* menus */
+.color-lilac #footer .menu li a:hover { color: #9468CE; }
+
+.color-lilac #menu li.level1.active:hover,
+.color-lilac #menu li.active.remain { background: #9C75D2; }
+.color-lilac #menu li.active a.level1 > span,
+.color-lilac #menu li.active span.level1 > span { color: #9468CE; }
+.color-lilac #menu li.parent a.level1,
+.color-lilac #menu li.parent span.level1 { background-image: url(../images/color/lilac/menu_level1_item_parent.png); }
+
+.color-lilac #menu a.level2:hover span.bg,
+.color-lilac #menu a.level3:hover span.bg { color:  #9468CE; }
+
+.color-lilac div.mod-line ul.menu a.current span.bg,
+.color-lilac div.mod-line ul.menu a:hover span.bg,
+.color-lilac div.mod-line ul.menu span:hover span.bg { color: #9468CE; }
+.color-lilac div.mod-line ul.menu li.level1 .level1 { background-image: url(../images/color/lilac/submenu_level1_item_hover.png); }
+.color-lilac div.mod-line ul.menu li.parent .level1 span.bg { background-image: url(../images/color/lilac/submenu_level1_item_parent.png); }
+.color-lilac div.mod-line ul.menu li.level2 span.bg { background-image: url(../images/color/lilac/submenu_level2_item.png); }
+
+/* modules */
+.color-lilac div.mod-box-templatecolor div.box-1,
+.color-lilac div.mod-hoverbox-default:hover div.box-1,
+.color-lilac div.mod-line-templatecolor:hover div.box-1 { background-color: #9C75D2; }
+.color-lilac div.mod-line-texthover:hover div.box-1,
+.color-lilac div.mod-line-texthover:hover h3.header span.subtitle { color: #9468CE; }
+.color-lilac div.mod-line-texthover:hover h3.header span.title {
+	border-color: #9C75D2;
+	color: #9468CE;
+}
+.color-lilac div.mod-box-invert:hover a:hover,
+.color-lilac div.mod-hoverbox-invert:hover a:hover,
+.color-lilac div.mod-line-texthover:hover a,
+.color-lilac div.mod-line-invert:hover a:hover { color: #9468CE; }
+.color-lilac div.mod-line-texthover:hover a:hover { color: #000000; }
+.color-lilac div.mod-line-texthover:hover a.readmore { color: #ffffff; }
+
+/* system */
+.color-lilac #searchbox .results li.result.selected { color: #9468CE; }
+
+.color-lilac #searchbox .results li.more-results:hover { background-color: #9C75D2; }
+.color-lilac .breadcrumbs a:hover  { color: #9468CE; }
+
+.color-lilac a.readmore { background-image: url(../images/color/lilac/readmore.png); }
+
+
+/* TEXTURES */
+.texture-squares #page-body { background: url(../images/texture/texture_squares.png) 50% 0; }
+
+.texture-stripes #page-body { background: url(../images/texture/texture_stripes.png) 50% 0; }
+
+.texture-brushes #page-body { background: url(../images/texture/texture_brushes.jpg) 50% 0 no-repeat; }
+.texture-brushes.color-blue #page-body { background-image: url(../images/texture/blue/texture_brushes.jpg); }
+.texture-brushes.color-green #page-body { background-image: url(../images/texture/green/texture_brushes.jpg); }
+.texture-brushes.color-orange #page-body { background-image: url(../images/texture/orange/texture_brushes.jpg); }
+.texture-brushes.color-lilac #page-body { background-image: url(../images/texture/lilac/texture_brushes.jpg); }
+
+.texture-gradient #page-body { background: url(../images/texture/texture_gradient.jpg) 50% 0 fixed; }
+
+body.yoopage.texture-curls  { background: url(../images/texture/texture_curls_bg.png) 0 0; }
+body.yoopage.texture-curls.color-blue  { background-image: url(../images/texture/blue/texture_curls_bg.png); }
+body.yoopage.texture-curls.color-green  { background-image: url(../images/texture/green/texture_curls_bg.png); }
+body.yoopage.texture-curls.color-orange  { background-image: url(../images/texture/orange/texture_curls_bg.png); }
+body.yoopage.texture-curls.color-lilac  { background-image: url(../images/texture/lilac/texture_curls_bg.png); }
+.texture-curls #page-body { background: url(../images/texture/texture_curls_mask.png) 50% 0 fixed; }
+
+.texture-splatter #page-body { background: url(../images/texture/texture_splatter.jpg) 50% 0 no-repeat; }
+
+
+/* FONTS */
+body.font-lucida,
+.font-lucida h1,
+.font-lucida h2,
+.font-lucida h3,
+.font-lucida h4,
+.font-lucida h5,
+.font-lucida h6 { font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; }
+
+body.font-georgia,
+.font-georgia h1,
+.font-georgia h2,
+.font-georgia h3,
+.font-georgia h4,
+.font-georgia h5,
+.font-georgia h6 { font-family: Georgia, "Times New Roman", Times, serif; }
+
+body.font-trebuchet,
+.font-trebuchet h1,
+.font-trebuchet h2,
+.font-trebuchet h3,
+.font-trebuchet h4,
+.font-trebuchet h5,
+.font-trebuchet h6 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; }

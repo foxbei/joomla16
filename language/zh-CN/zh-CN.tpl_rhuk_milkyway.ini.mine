@@ -1,0 +1,29 @@
+; $Id: zh-CN.tpl_rhuk_milkyway.ini 2010-12-13 14:54:52 $
+; Joomlacn.org
+; Copyright (C) 2010 joomlacn.org. All rights reserved.
+; License GNU General Public License version 2 or later; see LICENSE.txt, see LICENSE.php
+; Note : All ini files need to be saved as UTF-8 - No BOM
+
+; Common boolean values
+; Note: YES, NO, TRUE, FALSE are reserved words in INI format.
+; Double quotes in the values have to be formatted as "_QQ_"
+; 欢迎访问http://www.joomlacn.org
+TPL_RHUK_MILKYWAY_FIELD_BACKGROUND_VARIATION_DESC = "选择网站前台背景的颜色"
+TPL_RHUK_MILKYWAY_FIELD_BACKGROUND_VARIATION_LABEL = "背景色"
+TPL_RHUK_MILKYWAY_FIELD_COLOR_VARIATION_DESC = "选择网站前台的主色调"
+TPL_RHUK_MILKYWAY_FIELD_COLOR_VARIATION_LABEL = "主色调"
+TPL_RHUK_MILKYWAY_FIELD_TEMPLATE_WIDTH_DESC = "从下拉列表中选择模板的宽度风格"
+TPL_RHUK_MILKYWAY_FIELD_TEMPLATE_WIDTH_LABEL = "模板宽度"
+TPL_RHUK_MILKYWAY_FIELD_VALUE_BLACK = "黑色"
+TPL_RHUK_MILKYWAY_FIELD_VALUE_BLUE = "蓝色"
+TPL_RHUK_MILKYWAY_FIELD_VALUE_FLUID = "流动(Fluid)"
+TPL_RHUK_MILKYWAY_FIELD_VALUE_FLUID_WITH_MAXIMUM = "流动到最大宽度"
+TPL_RHUK_MILKYWAY_FIELD_VALUE_GREEN = "绿色"
+TPL_RHUK_MILKYWAY_FIELD_VALUE_MEDIUM = "中"
+TPL_RHUK_MILKYWAY_FIELD_VALUE_ORANGE = "橙色"
+TPL_RHUK_MILKYWAY_FIELD_VALUE_RED = "红色"
+TPL_RHUK_MILKYWAY_FIELD_VALUE_SMALL = "小"
+TPL_RHUK_MILKYWAY_FIELD_VALUE_WHITE = "白色"
+TPL_RHUK_MILKYWAY_POWERED = "Powered by %s"
+TPL_RHUK_MILKYWAY_VALID = "Valid %s and %s"
+TPL_RHUK_MILKYWAY_XML_DESCRIPTION = "MilkyWay是Joomla!的新模板。模板简洁的设计使其非常轻巧和快速！"

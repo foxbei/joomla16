@@ -1,0 +1,13 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+.webfonts #menu a.level1 span.bg,
+.webfonts #menu span.level1 span.bg,
+.webfonts .module h3.header,
+.webfonts h1,
+.webfonts h2,
+.webfonts h3,
+.webfonts h4,
+.webfonts h5,
+.webfonts h6 { font-family: 'Nobile', Arial, sans-serif; }
+
+.webfonts h1 { line-height: 24px; }

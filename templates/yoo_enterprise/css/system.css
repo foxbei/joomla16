@@ -1,0 +1,149 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/system.css);
+@import url(../warp/systems/joomla.1.6/css/system.css);
+
+/*
+ * items
+ */
+
+#system .items .item { border-color: #E5E5E5; }
+
+/*
+ * Joomla 1.6 only
+ */
+ 
+#system .items.leading {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+
+#system .items.leading .item:last-child {
+	margin-bottom: 18px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+#system .item-list {
+    border-top: none;
+	margin-top: 0;
+}
+
+/*
+ * search
+ */
+ 
+#searchbox {
+	width: 120px;
+	height: 20px;
+	background: url(../images/yoosearch/searchbox_bg.png) 0 0 no-repeat;
+}
+
+#searchbox:hover  { background-position: 0 -20px; }
+
+#searchbox input {
+	height: 20px;
+	width: 80px;
+	padding: 0px 0px 0px 4px;
+	line-height: 20px;
+}
+
+#searchbox button {
+	width: 18px;
+	height: 20px;
+}
+
+#searchbox button.magnifier { background-image: url(../images/yoosearch/magnifier_icon.png); }
+#searchbox button.reset { background-image: url(../images/yoosearch/close_icon.png); }
+
+#searchbox .results {
+	top: 32px;
+	right: -11px;
+	border-left: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+	border-top: none;
+	background: #f9f9f9 url(../images/yoosearch/resultbox_bg.png) 0 100% repeat-x;
+	text-shadow: 0 1px 0 rgba(255,255,255,1);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,0.2);
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+#searchbox .results li.results-header {
+	height: 26px;
+	border-color: #ffffff;
+	color: #ffffff;
+	background: url(../images/yoosearch/header_bg.png);
+	font-weight: bold;
+	text-transform: none;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+	line-height: 26px;
+}
+
+#searchbox .results li.result {
+	border-color: #E0E0E0;
+	color: #666666;
+}
+
+#searchbox .results li.result.selected {
+	color: #000000;
+	background: #F1F1F1;
+}
+
+#searchbox .results li.more-results {
+	height: 26px;
+	border-color: #E0E0E0;
+	line-height: 26px;
+	font-weight-bold;
+	color: #666666;
+	background: #f9f9f9 url(../images/yoosearch/resultbox_bg.png) 0 100% repeat-x;
+}
+
+#searchbox .results li.more-results:hover,
+#searchbox .results li.result.selected h3 { color: #000000; }
+
+/*
+ * pagination
+ */
+
+div.pagination { margin-bottom: 20px; }
+
+.pagination a,
+.pagination strong { 
+	border-color: #D3D4D5;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/*
+ * readmore button
+ */
+ 
+p.readmore { overflow: hidden; }
+div.module p.readmore {	margin-bottom: 0px; }
+
+a.readmore {
+	width: 80px;
+	height: 22px;
+	border: none;
+	background: url(../images/readmore.png) 0 0 no-repeat;
+	line-height: 22px;
+	font-size: 90%;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+}
+
+#page a.readmore { color: #555555; }
+
+#page a.readmore:hover {
+	background-position: 0 -32px;
+	line-height: 24px;
+	color: #9d1c1f;
+}
+
+/*
+ * breadcrumbs
+ */
+
+.breadcrumbs { display: inline; }

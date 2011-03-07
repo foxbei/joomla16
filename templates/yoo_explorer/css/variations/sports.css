@@ -1,0 +1,200 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body.yoopage { background:  url(../../images/variations/sports/page_bg.jpg) 50% 0 repeat; }
+#page-body { background:  url(../../images/variations/sports/page_bg_img.jpg) 50% 0 no-repeat; }
+
+#menubar { background-image: url(../../images/variations/sports/menubar.png); }
+#menubar div.menubar-2 { background-image: url(../../images/variations/sports/menubar.png); }
+#menubar div.menubar-3 { background-image: url(../../images/variations/sports/menubar.png); }
+
+#search {
+	top: 131px;
+	right: 28px;
+	width: 128px;
+	height: 34px;
+	padding: 15px 0px 0px 63px;
+	background: url(../../images/variations/sports/search_bg.png) 0 0 no-repeat;
+}
+
+div.wrapper-t1,
+div.wrapper-t2,
+div.wrapper-t3,
+div.wrapper-b1,
+div.wrapper-b2,
+div.wrapper-b3,
+div.wrapper-inner-b1-last { background-image: url(../../images/variations/sports/wrapper_corners.png); }
+
+div.wrapper-1,
+div.wrapper-2 { background-image: url(../../images/variations/sports/wrapper_edges_outer.png); }
+
+div.wrapper-3 { background: url(../../images/variations/sports/wrapper_bg.png) 0 0 repeat; }
+
+div.wrapper-inner-1,
+div.wrapper-inner-2 { background-image: url(../../images/variations/sports/wrapper_edges_inner.png); }
+
+div.wrapper-inner-b1 { background-image: url(../../images/variations/sports/wrapper_separator_l.png); }
+div.wrapper-inner-b2 { background-image: url(../../images/variations/sports/wrapper_separator_r.png); }
+div.wrapper-inner-b3 { background-image: url(../../images/variations/sports/wrapper_separator_m.png); }
+
+div.wrapper-inner-b1-last,
+div.wrapper-inner-b1-last div.wrapper-inner-b2,
+div.wrapper-inner-b1-last div.wrapper-inner-b3 { background-image: url(../../images/variations/sports/wrapper_corners.png); }
+
+#toolbar {
+	text-shadow: 0px -1px 1px #000000, 0px 2px 2px #000000, 0px 2px 5px #000000;
+	font-weight: bold;
+}
+
+#date + .left .module:first-child,
+#toolbar .menu li a { background-image: url(../../images/variations/sports/topmenu_item_bg.png); }
+
+#toolbar,
+#toolbar .menu a:link,
+#toolbar .menu a:visited { color: #ffffff; }
+#toolbar .menu a:hover { color: #ffffff; }
+
+#footer a.anchor { background-image: url(../../images/variations/sports/footer_anchor.png); }
+
+#menu a.level1 span.bg,
+#menu span.level1 span.bg {
+	color: #DCDCDC;
+	text-shadow: 0px 0px 2px #000000;
+}
+
+#menu li:hover .level1 span.bg,
+#menu li.remain .level1 span.bg { text-shadow: 0px 1px 2px #000000; }
+
+#menu li.active .level1 span.bg,
+#menu li.active .level1 span.subtitle {
+	color: #FF8A00;
+	text-shadow: 0px 0px 2px #000000;
+}
+
+#menu a.level1 span.subtitle,
+#menu span.level1 span.subtitle { color: #DCDCDC; }
+
+#menu .dropdown-t1,
+#menu .dropdown-t2,
+#menu .dropdown-t3,
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/variations/sports/menu_dropdown_corners.png); }
+
+#menu .dropdown-1,
+#menu .dropdown-2 { background-image: url(../../images/variations/sports/menu_dropdown_edges.png); }
+
+#menu .dropdown-3 { background: #e9e8e7; }
+
+#menu .hover-box1 { background: #ffffff url(../../images/variations/sports/menu_level2_item_corners1.png) 0 0 no-repeat; }
+#menu .hover-box2 { background-image: url(../../images/variations/sports/menu_level2_item_corners1.png); }
+#menu .hover-box3 { background-image: url(../../images/variations/sports/menu_level2_item_corners2.png); }
+#menu .hover-box4 { background-image: url(../../images/variations/sports/menu_level2_item_corners2.png); }
+
+#menu .hover-box1:hover,
+#menu .hover-box1:hover .hover-box2 { background-image: url(../../images/variations/sports/menu_level2_item_corners1_hover.png); }
+#menu .hover-box1:hover .hover-box3,
+#menu .hover-box1:hover .hover-box4 { background-image: url(../../images/variations/sports/menu_level2_item_corners2_hover.png); }
+
+#menu li.separator .hover-box1:hover,
+#menu li.separator .hover-box1:hover .hover-box2 { background-image: url(../../images/variations/sports/menu_level2_item_corners1.png); }
+#menu li.separator .hover-box1:hover .hover-box3,
+#menu li.separator .hover-box1:hover .hover-box4 { background-image: url(../../images/variations/sports/menu_level2_item_corners2.png); }
+
+#menu a.level3 span.bg,
+#menu span.level3 span.bg { background-image: url(../../images/variations/sports/menu_level3_item.png); }
+
+div.mod-rounded ul.menu a.level1,
+div.mod-rounded ul.menu span.level1 { background: #e9e8e7 url(../../images/variations/sports/submenu_level1_item.png) 0 0 no-repeat; }
+div.mod-rounded ul.menu li.parent { background: #dad9d8 url(../../images/variations/sports/submenu_level2_bg.png) 0 30px repeat-x; }
+div.mod-rounded ul.menu ul.level2 { background: url(../../images/variations/sports/submenu_level2_bg.png) 0 100% repeat-x; }
+
+div.mod-rounded-templatecolor a.readmore { color: #323232; }
+div.mod-rounded-templatecolor a.readmore:hover { color: #ffffff; }
+
+/* modules */
+div.mod-headerbar span { background: url(../../images/variations/sports/module_headerbar.png) 0 0 repeat; }
+
+div.mod-rounded div.box-t1,
+div.mod-rounded div.box-t2,
+div.mod-rounded div.box-t3,
+div.mod-rounded div.box-b1,
+div.mod-rounded div.box-b2,
+div.mod-rounded div.box-b3 { background-image: url(../../images/variations/sports/module_rounded_white_corners.png); }
+div.mod-rounded div.box-1,
+div.mod-rounded div.box-2 { background-image: url(../../images/variations/sports/module_rounded_white_edges.png); }
+div.mod-rounded div.box-3 { background: #e9e8e7; }
+div.mod-rounded h3.header { background-image: url(../../images/variations/sports/module_rounded_white_header.png); }
+
+div.mod-rounded-templatecolor div.box-t1,
+div.mod-rounded-templatecolor div.box-t2,
+div.mod-rounded-templatecolor div.box-t3,
+div.mod-rounded-templatecolor div.box-b1,
+div.mod-rounded-templatecolor div.box-b2,
+div.mod-rounded-templatecolor div.box-b3 { background-image: url(../../images/variations/sports/module_rounded_templatecolor_corners.png); }
+div.mod-rounded-templatecolor div.box-1,
+div.mod-rounded-templatecolor div.box-2 { background-image: url(../../images/variations/sports/module_rounded_templatecolor_edges.png); }
+div.mod-rounded-templatecolor div.box-3 { background: url(../../images/variations/sports/module_rounded_templatecolor_bg.png) 0 0  repeat; }
+div.mod-rounded-templatecolor h3.header { background-image: url(../../images/variations/sports/module_rounded_templatecolor_header.png); }
+
+div.mod-line h3.header { background-image: url(../../images/variations/sports/module_line.png); }
+
+div.mod-tab h3.header,
+div.mod-tab span.header-2,
+div.mod-tab span.header-3 { background-image: url(../../images/variations/sports/module_tab_header.png); }
+
+/* typography */
+@font-face {
+  font-family: MyFont;
+  src: url(../../fonts/HEMIHEAD.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div.mod-blank h3.header,
+div.mod-rounded h3.header,
+div.mod-line h3.header,
+div.mod-tab h3.header { font-family: MyFont, Arial, Helvetica, sans-serif; letter-spacing: 0px; }
+
+div.module h3.header span.subtitle { font-family: Arial, Helvetica, sans-serif; }
+
+h1,
+#page h1 a,
+h3,
+h5,
+.contentheading,
+.componentheading,
+.module h3.header { color: #e67c00; }
+div.mod-rounded ul.menu span.bg { color: #525050; }
+
+h2,
+h4,
+h6 { color: #525050; }
+
+a:link,
+a:visited { color: #c9570c; }
+
+a:hover { color: #7f9a11; }
+
+#system .items .item { background: url(../../images/variations/sports/article_separator.png) 50% 0 repeat-x; }
+
+#searchbox .results {
+	right: -9px;
+	border-color: #a0a0a0;
+	background: #e9e8e7;
+}
+#searchbox .results li.results-header,
+#searchbox .results li.more-results { background-image: url(../../images/variations/sports/yoosearch/header_bg.png); }
+#searchbox .results li.result.selected { background-color: #d7d4d4; }
+
+a.readmore { background-image: url(../../images/variations/sports/readmore.png); }
+a.readmore:link,
+a.readmore:visited { color: #323232; }
+a.readmore:hover { color: #ffffff; }
+
+/* custom */
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_sports.png); }
+#page #top div.frontpage { background-image: url(../../../../images/yootheme/yoocarousel/sports.jpg); }

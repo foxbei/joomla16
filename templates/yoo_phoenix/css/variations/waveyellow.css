@@ -1,0 +1,43 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body.yoopage { background: #f08433 url(../../images/variations/waveyellow/page_bg.png) 0 0 repeat-x scroll; }
+#page-body { background: none; }
+
+.wrapper-bg1 { background: #e17129 url(../../images/variations/waveyellow/page_bg_wrapper.png) 0 0 repeat-x; }
+.wrapper-bg2 { background: url(../../images/variations/waveyellow/page_bg_radial.jpg) 50% 0 no-repeat; }
+
+#toolbar,
+#footer { color: #ffffff; }
+
+#toolbar .menu li a,
+#footer .menu li a { background-image: url(../../images/topmenu_item_bg_white.png); }
+
+#footer a:link, #footer a:visited { color: #ffffff; }
+#footer a:hover { color: #ffffff; }
+
+#toolbar .menu a:link,
+#toolbar .menu a:visited { color: #ffffff; }
+#toolbar .menu a:hover { color: #ffffff; }
+
+#footer .menu a:link,
+#footer .menu a:visited { color: #ffffff; }
+#footer .menu a:hover { color: #ffffff; }
+
+#toolbar .menu a:hover,
+#footer .menu a:hover,
+#menu li.active a.level1 span.bg,
+#menu li.active span.level1 span.bg,
+h1,
+#page h1 a,
+h3,
+h5,
+a:link,
+a:visited,
+.contentheading,
+.componentheading { color: #e64600; }
+
+#menu li.active:hover a.level1 span.bg,
+#menu li.active:hover span.level1 span.bg,
+#menu li.active.remain a.level1 span.bg,
+#menu li.active.remain span.level1 span.bg,
+a:hover { color: #ff7800; }

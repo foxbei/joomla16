@@ -1,0 +1,191 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/system.css);
+@import url(../warp/systems/joomla.1.6/css/system.css);
+
+#component { overflow: visible; }
+
+#system .title { 
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+}
+
+.webfonts #system h1.title { 
+	font-family: 'Yanone Kaffeesatz';
+	font-size: 30px;
+}
+
+/*
+ * item
+ */
+ 
+#system .item > .date {
+	padding-top: 5px;
+	height: 40px;
+	width: 45px;
+	margin-right: 5px;
+	float: left;
+	color: #ffffff;
+	background: url(../images/zoo/date_bg.png) 0 0 no-repeat;
+}
+
+#system .items-col-1 .item > .date {
+	margin-left: -57px;
+	padding: 10px 0px 0px 5px;
+	height: 45px;
+	background-position: 0 -55px;
+}
+
+#system .item div.date .day { 
+	text-align: center;
+	font-size: 28px;
+	letter-spacing: -2px;
+	line-height: 28px;
+	font-weight: normal;
+}
+
+#system .item div.date .month {
+	margin-top: -3px;
+	text-align: center;
+	font-size: 10px;
+	line-height: 10px;
+	text-transform: uppercase;
+}
+
+#system .item > .date + .title { line-height: 45px; }
+#system .items-col-1 .item > .date + .title { line-height: 55px; }
+
+/*
+ * items
+ */
+
+#system .items { overflow: visible; }
+
+#system .items .item {
+	margin: 15px 10px 0 10px;
+	padding-top: 15px;
+	border-top: none;
+	background: url(../images/article_separator.png) 50% 0 no-repeat;
+	overflow: hidden;
+}
+#system .items .item:first-child { background: none; }
+
+#system .items-col-1 .item { overflow: visible; }
+
+/*
+ * Joomla 1.6 only
+ */
+
+#system .items.leading,
+#system .leading .item { overflow: visible; }
+
+#system .leading .item > .date + .title { line-height: 55px; }
+
+#system .items.leading {
+	padding-bottom: 25px;
+	border: none;
+	background: url(../images/article_separator.png) 50% 100% no-repeat;
+}
+
+#system .item-list {
+    border-top: none;
+	padding-top: 20px;
+	background: url(../images/article_separator.png) 50% 0 no-repeat;
+}
+
+ 
+#breadcrumbs span {
+	margin-right: 8px;
+	padding-right: 15px;
+	background: url(../images/breadcrumbs.png) 100% 50% no-repeat;
+	text-decoration: none;
+	color: #A0A1A2;
+}
+
+/*
+ * searchbox
+ */
+ 
+#searchbox { background: url(../images/yoosearch/searchbox_bg.png) 0 0 no-repeat; }
+#searchbox:hover  { background-position: 0 -32px; }
+
+#searchbox input { color: #969696; }
+
+#searchbox:hover input,
+#searchbox input:focus { color: #676869; }
+
+#searchbox button.magnifier { background: url(../images/yoosearch/magnifier_icon.png) 50% 50% no-repeat; }
+#searchbox button.reset { background: url(../images/yoosearch/close_icon.png) 50% 50% no-repeat; }
+
+#searchbox .results { 
+	top: 36px;
+	border-color: 1px solid #B9BABB;
+	border-top: none;
+	background: #F0F1F2;
+}
+
+#searchbox .results li.results-header,
+#searchbox .results li.more-results {
+	color: #646566;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.6);
+	font-size: 16px;
+}
+#searchbox .results li.results-header { 
+	height: 44px;
+	border-bottom: none;
+	line-height: 40px;
+	background: url(../images/yoosearch/header_bg.png) 0 0 repeat-x;
+}
+#searchbox .results li.more-results { 
+	height: 30px;
+	border-top-color: #B9BABB;
+	line-height: 30px;
+}
+
+#searchbox .results li.result {	border-top-color: #DFE0E1; }
+
+#searchbox .results li.result:hover,
+#searchbox .results li.result.selected { background-color: #FAFBFC; }
+
+/*
+ * pagination
+ */
+
+.pagination a,
+.pagination strong { 
+	border-color: #CCCDCE;
+	background-color: #E9EAEB;
+}
+
+/*
+ * readmore button
+ */
+ 
+a.readmore {
+	height: 20px;
+	padding-left: 20px;
+	border: none;
+	line-height: 20px;
+	text-indent: 8px;
+	background: url(../images/readmore.png) 0 0 no-repeat;
+}
+
+#page #left a.readmore,
+#page #right a.readmore { 
+	color: #2D2E2F;
+	background-position: 0 -25px;
+}
+
+#page a.readmore:link,
+#page a.readmore:visited {
+	color: #CA6746;
+	text-shadow: 0px 1px 0px rgba(255,255,255,0.2);
+}
+
+#page a.readmore:hover {
+	color: #818384;
+	text-shadow: none;
+}
+
+#page #left a.readmore:hover,
+#page #right a.readmore:hover { color: #FFFFFF; }

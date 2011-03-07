@@ -1,0 +1,61 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body.yoopage { background: #CDCABE url(../../images/variations/beige/page_bg_t.png) 50% 0 repeat-x; }
+#page-body { background: url(../../images/variations/beige/page_bg_img.jpg) 50% 0 no-repeat; }
+
+#toolbar {
+	color: #505050;
+	text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5)
+}
+
+#toolbar .menu a:link,
+#toolbar .menu a:visited,
+#toolbar a:link,
+#toolbar a:visited { color: #505050; }
+#toolbar .menu a:hover,
+#toolbar a:hover { color: #000000; }
+
+div.mod-headerbar span { text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4); }
+
+div.mod-rounded-templatecolor div.box-t1,
+div.mod-rounded-templatecolor div.box-t2,
+div.mod-rounded-templatecolor div.box-t3,
+div.mod-rounded-templatecolor div.box-b1,
+div.mod-rounded-templatecolor div.box-b2,
+div.mod-rounded-templatecolor div.box-b3,
+div.mod-rounded-templatecolor h3.header,
+div.mod-rounded-templatecolor span.header-2,
+div.mod-rounded-templatecolor span.header-3 { background-image: url(../../images/variations/beige/module_rounded_templatecolor_corners.png); }
+div.mod-rounded-templatecolor div.box-1,
+div.mod-rounded-templatecolor div.box-2 { background-image: url(../../images/variations/beige/module_rounded_templatecolor_edges.png); }
+div.mod-rounded-templatecolor div.box-3 {
+	background: #B09E83;
+	color: #f5ede1;
+}
+div.mod-rounded-templatecolor h3.header { color: #ffffff; }
+div.mod-rounded-templatecolor em.box { border: 1px dotted #5f4f36; background: #998668; }
+
+#page div.mod-sidebar-templatecolor h3.header,
+div.mod-sidebar-templatecolor span.header-2 { background-image: url(../../images/variations/beige/module_rounded_templatecolor_corners.png); }
+div.mod-sidebar-templatecolor h3.header { color: #ffffff; }
+
+h1,
+#page h1 a,
+h3,
+h5,
+.contentheading,
+.componentheading { color: #948164; }
+h2,
+h4,
+h6 { color: #675843; }
+a:link,
+a:visited,
+div.mod-rounded-white a:link,
+div.mod-rounded-white a:visited,
+div.mod-rounded-lightgrey a:link,
+div.mod-rounded-lightgrey a:visited { color: #937649; }
+a:hover,
+div.mod-rounded-white a:hover,
+div.mod-rounded-lightgrey a:hover { color: #675843; }
+
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_beige.png); }

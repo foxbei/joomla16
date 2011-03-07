@@ -1,0 +1,174 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/system.css);
+@import url(../warp/systems/joomla.1.6/css/system.css);
+
+/*
+ * item
+ */
+
+#system .items .item {
+	margin-top: 15px;
+	padding-top: 25px;
+	border: none;
+	background: url(../images/article_separator.png) 50% 0 no-repeat;
+}
+#system .items .item:first-child { background: none; }
+
+#system .item > .meta { 
+	font-size: 10px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+/*
+ * Joomla 1.6 only
+ */
+ 
+#system .items.leading {
+	border: none;
+	background: url(../images/article_separator.png) 50% 100% no-repeat;
+}
+
+#system .item-list {
+    border-top: none;
+	padding-top: 11px;
+	background: url(../images/article_separator.png) 50% 0 no-repeat;
+}
+
+ 
+#breadcrumbs span {
+	padding: 0px 15px 0px 5px;
+	background: url(../images/breadcrumbs.png) 100% -77px no-repeat;
+	text-shadow: 0px 1px 0px #ffffff, 0px 1px 4px #c8c8c8;
+}
+
+/*
+ * searchbox
+ */
+
+#searchbox {
+	width: 120px;
+	height: 20px;
+	background: url(../images/searchbox_bg.png) 0 0 no-repeat;
+}
+#searchbox:hover  { background-position: 0 -20px; }
+
+#searchbox input {
+	margin-top: 1px;
+	padding-top: 3px;
+	width: 84px;
+	height: 15px;
+	line-height: 15px;
+}
+#searchbox:hover input,
+#searchbox input:focus { color: #676869; }
+
+#searchbox button { 
+	margin-top: 1px;
+	width: 18px;
+	height: 18px;
+}
+
+#searchbox button.magnifier { background-image: url(../images/search_magnifier_icon.png); }
+
+#searchbox .results {
+	right: -5px;
+	top: 34px;
+	border-color: #BDC8CE;
+	background: #ECEFF0;
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+#searchbox .results li.results-header,
+#searchbox .results li.more-results {
+	height: 25px;
+	line-height: 25px;
+	background: url(../images/yoosearch/header_bg.png) 0 0 repeat-x;
+	color: #ffffff;
+	text-shadow: 0px -1px 2px rgba(0,0,0,0.3);
+}
+
+#searchbox .results li.result { border: none; }
+#searchbox .results li.result.selected { background-color: #ffffff; }
+
+
+#searchbox .results li.result.selected h3 {
+	color: #545557;
+	text-shadow: 0 1px 0 rgba(255,255,255,1);
+}
+
+/*
+ * table zebra
+ */
+ 
+table.zebra th,
+table.zebra td { border-color: #dcdcdc; }
+
+table.zebra tbody tr.odd { background: #fafafa; }
+table.zebra tbody tr:nth-of-type(odd) { background: #fafafa; }
+
+table.zebra tbody tr.even { background: #f0f0f0; }
+table.zebra tbody tr:nth-of-type(even) { background: #f0f0f0; }
+
+/*
+ * pagination
+ */
+
+.pagination a,
+.pagination strong { 
+	border-color: #DCDCDC;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/*
+ * readmore button
+ */
+
+p.readmore { overflow: hidden; }
+div.module p.readmore {	margin-bottom: 0px; }
+
+a.readmore {
+	width: 100px;
+	height: 20px;
+	border: none;
+	background: url(../images/readmore.png) 0 0 no-repeat;
+	line-height: 20px;
+	font-size: 90%;
+	text-shadow: 0px 1px 0px #FFFFFF;
+}
+
+a.readmore:link,
+a.readmore:visited { color: #505050; }
+
+a.readmore:hover {
+	background-position: 0 -25px;
+	color: #ffffff;
+	text-shadow: 0px 1px 1px #646464;
+}
+
+div.mod-rounded-templatecolor a.readmore { background-position: 0 -50px; color: #646464; text-decoration: none; }
+div.mod-rounded-templatecolor a.readmore:hover { background-position: 0 -75px; color: #ffffff; }
+
+div.joomla div.item-bg {
+	padding-bottom: 5px;
+	background: url(../images/article_separator.png) 50% 100% no-repeat;
+	overflow: hidden;
+}
+
+/*
+ * breadcrumbs
+ */
+ 
+.breadcrumbs a,
+.breadcrumbs > span { margin-right: 0px; }
+
+#breadcrumbs strong {
+	padding: 0px 5px 0px 5px;
+	text-shadow: 0px 1px 0px #ffffff, 0px 1px 4px #c8c8c8;
+	color: #323232;
+}

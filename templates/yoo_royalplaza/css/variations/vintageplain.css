@@ -1,0 +1,19 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(vintage.css);
+
+#page-body { background: #FFFEF2 url(../../images/variations/vintageplain/page_bg.png) 50% 0 repeat-x; }
+
+div.wrapper-t1,
+div.wrapper-t2,
+div.wrapper-t3,
+div.wrapper-1,
+div.wrapper-2,
+div.wrapper-3,
+div.wrapper-b1,
+div.wrapper-b2,
+div.wrapper-b3 { background: none; }
+
+#page #top .frontpage1 { background: url(../../../../images/yootheme/yoocarousel/vintage_image.jpg) 0 0 no-repeat; }
+#page #top .frontpage2 { background: url(../../../../images/yootheme/yoocarousel/vintage_icon1.jpg) 0 0 no-repeat; }
+#page #top .frontpage3 { background: url(../../../../images/yootheme/yoocarousel/vintage_icon2.jpg) 0 0 no-repeat; }

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.6" type="template" client="site">
+	<name>yoo_enterprise</name>
+	<version>5.5.0</version>
+	<creationDate>January 2011</creationDate>
+	<author>YOOtheme</author>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+    <copyright>Copyright (C) 2007 - 2011 YOOtheme GmbH</copyright>
+    <license>YOOtheme Proprietary Use License (http://www.yootheme.com/license)</license>
+	<description>Enterprise is the April 2010 theme of the YOOtheme club. It is based on YOOtheme's Warp CMS theme framework. NOTE: It is not free or public. This theme is for members of the YOOtheme club only.</description>
+	<files>
+		<filename>checksums</filename>
+		<filename>apple_touch_icon.png</filename>
+		<filename>changelog.php</filename>
+		<filename>component.php</filename>
+		<filename>config.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>raw.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>presets.php</filename>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>html</folder>		
+		<folder>layouts</folder>
+		<folder>warp</folder>
+		<folder>images</folder>
+	</files>
+	<positions>
+		<position>absolute</position>
+		<position>search</position>
+		<position>logo</position>
+		<position>menu</position>
+		<position>banner</position>
+		<position>toolbarleft</position>
+		<position>toolbarright</position>
+		<position>headerleft</position>
+		<position>headerright</position>
+		<position>breadcrumbs</position>
+		<position>top</position>
+		<position>topblock</position>
+		<position>left</position>
+		<position>right</position>
+		<position>maintop</position>
+		<position>contentleft</position>
+		<position>contentright</position>
+		<position>contenttop</position>
+		<position>contentbottom</position>
+		<position>mainbottom</position>
+		<position>bottom</position>
+		<position>bottomblock</position>
+		<position>footer</position>
+		<position>content1</position>
+		<position>content2</position>
+		<position>content3</position>
+		<position>content4</position>
+		<position>content5</position>
+		<position>content6</position>
+		<position>content7</position>
+		<position>content8</position>
+		<position>content9</position>
+		<position>debug</position>
+	</positions>
+	<config>
+		<fields name="params" addfieldpath="/templates/yoo_enterprise/warp/systems/joomla.1.6/elements">	
+			<fieldset name="basic">
+			    <field name="presets" type="preset" label="Presets" description="Presets" default="{}" />
+		        <field name="allow_dynamic_preset" type="radio" default="1" label="Allow dynamic preset" description="Allow dynamic preset.">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="color" type="list" default="default" label="Template Color" description="Used color for template">
+					<option value="default">Blue/White</option>
+					<option value="green">Green/White</option>
+					<option value="red">Red/White</option>
+					<option value="orange">Orange/White</option>
+					<option value="redblack">Red/Black</option>
+					<option value="blackred">Black/Red</option>
+					<option value="browngreen">Brown/Green</option>
+					<option value="blueorange">Blue/Orange</option>
+					<option value="orangeblack">Orange/Black</option>
+					<option value="crystal">Crystal</option>
+					<option value="energy">Energy</option>
+					<option value="office">Office</option>
+				</field>
+				<field name="template_width" type="text" size="10" default="980" label="Template Width" description="Set the template width." />
+				<field name="template_width_unit" type="radio" default="px" label="Template Width Unit" description="Set the template width length unit to pixel or percent. For example use 90% to get a fluid layout.">
+					<option value="px">Pixel</option>
+					<option value="%">Percent</option>
+				</field>
+				<field name="date" type="radio" default="1" label="Show Date" description="Show/Hide the date.">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="compression" type="list" default="0" label="Compression" description="Select the compression mode: Minify and combine templates css and javascript into a single file. Compress these files with gzip. Use Data URIs instead of images to remove all image file requests.">
+					<option value="0">None</option>
+					<option value="1">Combination + Minify</option>
+					<option value="2">Combination + Minify + Gzip</option>
+					<option value="3">Combination + Minify + Gzip + Data URIs</option>
+				</field>
+			    <field name="verify" type="verify" label="Verify Files" description="Detects and shows all template file modifications" />
+			</fieldset>			
+			<fieldset name="advanced">
+				<field name="left_width" type="text" size="10" default="245" label="Left Width" description="Set the width of the #left column in pixels. Don't forget to modify existent background images to match the new width if needed." />
+				<field name="left_space" type="text" size="10" default="0" label="Left Space" description="Set the space between the #left and #main column in pixels." />
+				<field name="right_width" type="text" size="10" default="245" label="Right Width" description="Set the width of the #right column in pixels. Don't forget to modify existent background images to match the new width if needed." />
+				<field name="right_space" type="text" size="10" default="0" label="Right Space" description="Set the space between the #main and #right column in pixels." />
+				<field name="contentleft_width" type="text" size="10" default="245" label="Contentleft Width" description="Set the width of the #contentleft column in pixels. Don't forget to modify existent background images to match the new width if needed." />
+				<field name="contentleft_space" type="text" size="10" default="0" label="Contentleft Space" description="Set the space between the #contentleft and #content column in pixels." />
+				<field name="contentright_width" type="text" size="10" default="245" label="Contentright Width" description="Set the width of the #contentright column in pixels. Don't forget to modify existent background images to match the new width if needed." />
+				<field name="contentright_space" type="text" size="10" default="0" label="Contentright Space" description="Set the space between the #content and #contentright column in pixels." />				
+				<field name="menu_width" type="text" size="10" default="250" label="Drop Down Column Width" description="Set the width of one column of the drop down menu in pixels." />
+			</fieldset>			
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,42 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * This CSS file is for customization purpose only
+ */ 
+
+#logo a.logo-icon {
+	display: block;
+	width: 200px;
+	height: 130px;
+	background: url(../../../images/yootheme/logo.png) 0 0 no-repeat;
+}
+
+div.demoimage {
+	float: right;
+	height: 280px;
+	width: 55%;
+	background: url(../../../images/yootheme/header_macbook.png) 100% 0 no-repeat;
+}
+
+#page.style-green #logo { top: 20px; left: 0px; }
+#page.style-green #logo a.logo-icon {
+	width: 142px;
+	height: 142px;
+	background-image: url(../../../images/yootheme/logo_green.png);
+}
+#page.style-red #logo a.logo-icon { background-image: url(../../../images/yootheme/logo_red.png); }
+#page.style-lilac #logo a.logo-icon { background-image: url(../../../images/yootheme/logo_lilac.png); }
+#page.style-brown #logo { top: -2px; left: 10px; }
+#page.style-brown #logo a.logo-icon {
+	width: 150px;
+	height: 140px;
+	background-image: url(../../../images/yootheme/logo_brown.png);
+}
+#page.style-turquoise #logo a.logo-icon { background-image: url(../../../images/yootheme/logo_turquoise.png); }
+
+.background-photo #headermodules { text-shadow: 0 1px 0 rgba(0,0,0,0.3), 0 0 2px rgba(0,0,0,0.7); }
+.background-mountains div.demoimage,
+.background-photo div.demoimage { background-image: url(../../../images/yootheme/header_travel.png);}
+.background-glitter div.demoimage,
+.background-bubbles div.demoimage { background-image: url(../../../images/yootheme/header_imac.png);}
+.background-landscape div.demoimage { background-image: url(../../../images/yootheme/header_coffee.png);}

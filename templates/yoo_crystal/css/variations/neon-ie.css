@@ -1,0 +1,40 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+#menu li.active { background: url(../../images/menu_level1_item_active_neonpink.png) 0 0 no-repeat; }
+#menu li.active li.active { background: none; }
+#menu li.active a.level1,
+#menu li.active span.level1 { background: url(../../images/menu_level1_item_active_neonpink.png) 100% -40px no-repeat; }
+#menu li.active a.level1 span.bg,
+#menu li.active span.level1 span.bg {  background: url(../../images/menu_level1_item_active_neonpink.png) 50% -115px repeat-x; }
+
+/* blue */
+body.blue #menu li.active { background: url(../../images/menu_level1_item_active_neonblue.png) 0 0 no-repeat; }
+body.blue #menu li.active li.active { background: none; }
+body.blue #menu li.active a.level1,
+body.blue #menu li.active span.level1 { background: url(../../images/menu_level1_item_active_neonblue.png) 100% -40px no-repeat; }
+body.blue #menu li.active a.level1 span.bg,
+body.blue #menu li.active span.level1 span.bg {  background: url(../../images/menu_level1_item_active_neonblue.png) 50% -115px repeat-x; }
+
+/* green */
+body.green #menu li.active { background: url(../../images/menu_level1_item_active_neongreen.png) 0 0 no-repeat; }
+body.green #menu li.active li.active { background: none; }
+body.green #menu li.active a.level1,
+body.green #menu li.active span.level1 { background: url(../../images/menu_level1_item_active_neongreen.png) 100% -40px no-repeat; }
+body.green #menu li.active a.level1 span.bg,
+body.green #menu li.active span.level1 span.bg {  background: url(../../images/menu_level1_item_active_neongreen.png) 50% -115px repeat-x; }
+
+/* orange */
+body.orange #menu li.active { background: url(../../images/menu_level1_item_active_neonorange.png) 0 0 no-repeat; }
+body.orange #menu li.active li.active { background: none; }
+body.orange #menu li.active a.level1,
+body.orange #menu li.active span.level1 { background: url(../../images/menu_level1_item_active_neonorange.png) 100% -40px no-repeat; }
+body.orange #menu li.active a.level1 span.bg,
+body.orange #menu li.active span.level1 span.bg {  background: url(../../images/menu_level1_item_active_neonorange.png) 50% -115px repeat-x; }
+
+/* lilac */
+body.lilac #menu li.active { background: url(../../images/menu_level1_item_active_neonlilac.png) 0 0 no-repeat; }
+body.lilac #menu li.active li.active { background: none; }
+body.lilac #menu li.active a.level1,
+body.lilac #menu li.active span.level1 { background: url(../../images/menu_level1_item_active_neonlilac.png) 100% -40px no-repeat; }
+body.lilac #menu li.active a.level1 span.bg,
+body.lilac #menu li.active span.level1 span.bg {  background: url(../../images/menu_level1_item_active_neonlilac.png) 50% -115px repeat-x; }

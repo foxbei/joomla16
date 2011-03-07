@@ -1,0 +1,76 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+body.yoopage { background: #739A42; }
+#page-header { background: #507D32 url(../../images/styles/green/page_header_bg.png) 50% 0 repeat-x; }
+#page-footer { background-image: url(../../images/styles/green/page_footer_bg.png); }
+
+#breadcrumbs a:hover  {	color: #57793D; }
+
+#footer a.anchor { background-image: url(../../images/styles/green/footer_anchor.png); }
+
+#headermodules a,
+#bottom2 a { color: #D0E098; }
+
+/* typography */
+h1,
+#page h1 a,
+h3,
+h5,
+a:link,
+a:visited { color: #57793D; }
+
+#headermodules em.box,
+#bottom2 em.box { background-color: #324E1F; }
+
+ul.links li { background-image: url(../../images/styles/green/typography/list_links.png); }
+
+#page ul.links li a:hover { color: #57793D; }
+#page #headermodules ul.links li a:hover,
+#page #bottom2 ul.links li a:hover  { color: #D0E098; }
+
+div.morearticles li,
+ul.button li { background-image: url(../../images/styles/green/typography/list_button.png); }
+
+ul.button li:hover span.title { color: #57793D; }
+
+/* menus */
+#menu li.active a.level1 span.bg,
+#menu li.active span.level1 span.bg,
+#menu li.active:hover a.level1 span.bg,
+#menu li.active:hover span.level1 span.bg,
+#menu li.active.remain .level1 span.bg { color: #57793D; }
+
+#menu a.level3 span.bg,
+#menu span.level3 span.bg { background-image: url(../../images/styles/green/menu_level3_item.png); }
+
+div.mod-shadowbox ul.menu a.current span.bg { color: #57793D; }
+div.mod-shadowbox ul.menu li.level2 span.bg { background-image: url(../../images/styles/green/submenu_level2_item.png); }
+
+/* modules */
+.module h3.header,
+#bottom2 div.mod-shadowbox h3.header,
+#headermodules div.mod-shadowbox h3.header { color: #57793D; }
+
+/* system */
+#system .item > .date { background-image: url(../../images/styles/green/system_date.png); }
+#page a.readmore { background-image: url(../../images/styles/green/readmore.png); }
+#page a.readmore:hover { color: #57793D; }
+
+/* extensions */
+#yoo-zoo.blog-noble .item div.pos-date,
+#yoo-zoo.blog-noble .items div.pos-date { background-image: url(../../images/styles/green/system_date.png); }
+#yoo-zoo.blog-noble .item h1.pos-title,
+#yoo-zoo.blog-noble .items h1.pos-title,
+#yoo-zoo.blog-noble .items h1.pos-title a { color: #57793D; }
+
+/* style */
+.background-aurora .page-header-img { background-image: url(../../images/background/aurora/aurora_green.jpg); }
+.background-glitter .page-header-img { background-image: url(../../images/background/glitter/glitter_green.jpg); }
+.background-bubbles .page-header-img { background-image: url(../../images/background/bubbles/bubbles_green.jpg); }
+.background-landscape #page-header { background-color: #4a742e; }
+.background-landscape .page-header-img { background-image: url(../../images/background/landscape/landscape_green.jpg); }
+.background-space #page-header { background-color: #091907; }
+.background-space .page-header-img { background-image: url(../../images/background/space/space_green.jpg); }
+.background-mountains #page-header { background: #82973b; }
+.background-mountains .page-header-img { background-image: url(../../images/background/mountains/mountains_green.jpg); }

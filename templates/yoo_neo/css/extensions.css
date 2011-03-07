@@ -1,0 +1,45 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * ZOO, Blog App, Sans Template
+ */
+
+/* frontpage + category */
+#yoo-zoo.blog-sans .items div.teaser-item-bg,
+#yoo-zoo.blog-sans .items div.teaser-item:last-child div.teaser-item-bg {
+	padding: 20px;
+	border: 1px solid #DFE0E1;
+	background: #ffffff;
+}
+#yoo-zoo.blog-sans .items div.teaser-item:last-child { padding-bottom: 20px; }
+
+/* item */
+#yoo-zoo.blog-sans > .item,
+#yoo-zoo.blog-sans > .author {
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 1px solid #DFE0E1;
+	background: #ffffff;
+}
+
+/*
+ * ZOO, Blog App, Default Template
+ */
+
+/* frontpage + category */
+#yoo-zoo.blog-default .items div.teaser-item-bg,
+#yoo-zoo.blog-default .items div.teaser-item:last-child div.teaser-item-bg {
+	padding: 20px;
+	border: 1px solid #DFE0E1;
+	background: #ffffff;
+}
+#yoo-zoo.blog-default .items div.teaser-item:last-child { padding-bottom: 20px; }
+
+/* item */
+#yoo-zoo.blog-default > .item,
+#yoo-zoo.blog-default > .author {
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 1px solid #DFE0E1;
+	background: #ffffff;
+}

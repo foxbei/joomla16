@@ -1,0 +1,27 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body.yoopage { background: #1E2731 url(../../images/variations/combsblue/page_bg.png) 0 0 repeat-x scroll; }
+#page-body { background: none; }
+
+.wrapper-bg1 { background: #ffffff; }
+
+#toolbar .menu a:hover,
+#footer .menu a:hover,
+#menu li.active a.level1 span.bg,
+#menu li.active span.level1 span.bg,
+h1,
+#page h1 a,
+h3,
+h5,
+a:link,
+a:visited,
+.contentheading,
+.componentheading { color: #2276c2; }
+
+#menu li.active:hover a.level1 span.bg,
+#menu li.active:hover span.level1 span.bg,
+#menu li.active.remain a.level1 span.bg,
+#menu li.active.remain span.level1 span.bg,
+a:hover { color: #00a8ff; }
+
+#footer a.anchor { background-position: 0 0; }

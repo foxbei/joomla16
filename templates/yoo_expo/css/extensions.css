@@ -1,0 +1,61 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ *  ZOO comment bubble vertical styling
+ */
+ 
+#page .zoo-comment.bubble-angled-vl div.bubble { padding-left: 2px; }
+
+#page .zoo-comment.bubble-angled-vl div.bubble-arrow { background: url(../images/zoo/bubble_arrow.png) 0 0 no-repeat; }
+ 
+#page .zoo-comment.bubble-angled-vl div.bubble-t1,
+#page .zoo-comment.bubble-angled-vl div.bubble-t2,
+#page .zoo-comment.bubble-angled-vl div.bubble-t3,
+#page .zoo-comment.bubble-angled-vl div.bubble-1,
+#page .zoo-comment.bubble-angled-vl div.bubble-2,
+#page .zoo-comment.bubble-angled-vl div.bubble-b1,
+#page .zoo-comment.bubble-angled-vl div.bubble-b2,
+#page .zoo-comment.bubble-angled-vl div.bubble-b3 { background: none; }
+
+#page .zoo-comment.bubble-angled-vl div.bubble-t2,
+#page .zoo-comment.bubble-angled-vl div.bubble-b2 { padding: 0px; }
+
+#page .zoo-comment.bubble-angled-vl div.bubble-2 { padding-right: 0px; }
+
+#page .zoo-comment.bubble-angled-vl div.bubble-t3,
+#page .zoo-comment.bubble-angled-vl div.bubble-b3 { height: 0px; }
+
+#page .zoo-comment.bubble-angled-vl div.bubble-3 { 
+	padding: 15px;
+	border: 1px solid #E1E1E2;
+}
+
+/*
+ * ZOO pure blog template
+ */
+
+#yoo-zoo.blog-pure .item h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#yoo-zoo.blog-pure .item div.pos-author,
+#yoo-zoo.blog-pure .author div.box { 
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-color: #E1E1E2;
+	background-color: #ffffff;
+}
+
+#yoo-zoo.blog-pure .item div.pos-related li a,
+#yoo-zoo.blog-pure .item div.pos-author h4.sub-pos-title a { text-decoration: none; }
+
+#yoo-zoo.blog-pure .item div.pos-author h3 {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #E1E1E2;
+}
+
+#yoo-zoo div#comments .comment-head {
+	border-color: #E1E1E2;
+	background-color: #FFFFFF;
+} 

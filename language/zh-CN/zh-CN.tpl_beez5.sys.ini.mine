@@ -1,0 +1,27 @@
+; $Id: zh-CN.tpl_beez5.sys.ini 2010-12-13 14:54:52 $
+; Joomlacn.org
+; Copyright (C) 2010 joomlacn.org. All rights reserved.
+; License GNU General Public License version 2 or later; see LICENSE.txt, see LICENSE.php
+; Note : All ini files need to be saved as UTF-8 - No BOM
+
+; Common boolean values
+; Note: YES, NO, TRUE, FALSE are reserved words in INI format.
+; Double quotes in the values have to be formatted as "_QQ_"
+; 欢迎访问http://www.joomlacn.org
+TPL_BEEZ5_XML_DESCRIPTION = "Beez, html5版本！"
+TPL_BEEZ5_POSITION_POSITION-0 = "Search"
+TPL_BEEZ5_POSITION_POSITION-1 = "Top"
+TPL_BEEZ5_POSITION_POSITION-2 = "Breadcrumbs"
+TPL_BEEZ5_POSITION_POSITION-3 = "Right bottom"
+TPL_BEEZ5_POSITION_POSITION-4 = "Left middle"
+TPL_BEEZ5_POSITION_POSITION-5 = "Left bottom"
+TPL_BEEZ5_POSITION_POSITION-6 = "Right top"
+TPL_BEEZ5_POSITION_POSITION-7 = "Left top"
+TPL_BEEZ5_POSITION_POSITION-8 = "Right middle"
+TPL_BEEZ5_POSITION_POSITION-9 = "Footer top"
+TPL_BEEZ5_POSITION_POSITION-10 = "Footer middle"
+TPL_BEEZ5_POSITION_POSITION-11 = "Footer bottom"
+TPL_BEEZ5_POSITION_POSITION-12 = "Middle top"
+TPL_BEEZ5_POSITION_POSITION-13 = "Unused"
+TPL_BEEZ5_POSITION_POSITION-14 = "Footer last"
+TPL_BEEZ5_POSITION_POSITION-15 = "Header"

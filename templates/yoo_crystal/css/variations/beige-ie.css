@@ -1,0 +1,8 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+#menu li.active { background: url(../../images/menu_level1_item_active_brown.png) 0 0 no-repeat; }
+#menu li.active li.active { background: none; }
+#menu li.active a.level1,
+#menu li.active span.level1 { background: url(../../images/menu_level1_item_active_brown.png) 100% -40px no-repeat; }
+#menu li.active a.level1 span.bg,
+#menu li.active span.level1 span.bg {  background: url(../../images/menu_level1_item_active_brown.png) 50% -115px repeat-x; }

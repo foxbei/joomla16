@@ -1,0 +1,53 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * ZOO, blog app, noble template
+ */
+
+#yoo-zoo.blog-noble .items div.teaser-item { padding-bottom: 5px; }
+
+#yoo-zoo.blog-noble .items h1.pos-title,
+#yoo-zoo.blog-noble .items h1.pos-title a,
+#yoo-zoo.blog-noble .item h1.pos-title { 
+	margin-bottom: 5px;
+	line-height: 55px;
+	letter-spacing: 0px;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	color: #CA6746;
+}
+
+#yoo-zoo.blog-noble .items h2.pos-subtitle,
+#yoo-zoo.blog-noble .item h2.pos-subtitle { 
+	margin-bottom: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-shadow: 0 1px 0 rgba(255,255,255,1);
+}
+
+
+/* date */
+#component, 
+#yoo-zoo.blog-noble div.items,
+#yoo-zoo.blog-noble .items div.teaser-item-bg { overflow: visible }
+
+#yoo-zoo.blog-noble div.pos-date {
+	margin-left: -57px;
+	padding-left: 5px;
+	height: 55px;
+	width: 46px;
+	margin-right: 5px;
+	background: url(../images/zoo/date_bg.png) 0 0 no-repeat;
+}
+
+#yoo-zoo.blog-noble div.pos-date span.day { 
+	margin-top: 10px;
+	font-weight: normal;
+}
+
+
+/* webfonts */
+.webfonts #yoo-zoo.blog-noble .items h1.pos-title,
+.webfonts #yoo-zoo.blog-noble .items h1.pos-title a,
+.webfonts #yoo-zoo.blog-noble .item h1.pos-title { 
+	font-family: 'Yanone Kaffeesatz';
+	font-size: 30px;
+}

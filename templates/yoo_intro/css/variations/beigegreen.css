@@ -1,0 +1,31 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* beigeblue.css, Copyright (C) 2007 - 2010 YOOtheme GmbH */
+
+#breadcrumbs a:link,
+#breadcrumbs a:visited,
+h2,
+h4,
+h6,
+a:link,
+a:visited,
+#menu li.active .level1 span.bg { color: #91AC20; }
+
+a:hover,
+#breadcrumbs a:hover { color: #6C94D5; }
+
+#page-footer a:link,
+#page-footer a:visited { color: #CFF37A; }
+#page-footer a:hover { color: #ffffff; }
+
+ul.hoverbox li a:hover { background-color: #BACF65; }
+
+div.mod-headline ul.menu li a.current { background: #BACF65; }
+div.mod-headline ul.menu li a.current span.bg { text-shadow: 0 0 2px rgba(80,90,0,0.7); }
+
+div.mod-box-ribbon h3.header,
+div.mod-box-ribbon span.header-2,
+div.mod-box-ribbon span.header-3 { background-image: url(../../images/variations/beigegreen/module_box_header_bg.png); }
+div.mod-box-ribbon span.header-3 { text-shadow: 0 0 2px rgba(80,90,0,0.7); }
+
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_beigegreen.png); }

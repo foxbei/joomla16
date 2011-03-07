@@ -1,0 +1,52 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body.yoopage { background: #141414 url(../../images/variations/city/page_bg.jpg) 50% 0 no-repeat fixed; }
+#page-body { background: none; }
+
+div.mod-headerbar span {
+	color: #ffffff;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1.0), 0px 1px 1px rgba(0, 0, 0, 1.0);
+}
+
+div.mod-rounded-templatecolor div.box-t1,
+div.mod-rounded-templatecolor div.box-t2,
+div.mod-rounded-templatecolor div.box-t3,
+div.mod-rounded-templatecolor div.box-b1,
+div.mod-rounded-templatecolor div.box-b2,
+div.mod-rounded-templatecolor div.box-b3,
+div.mod-rounded-templatecolor h3.header,
+div.mod-rounded-templatecolor span.header-2,
+div.mod-rounded-templatecolor span.header-3 { background-image: url(../../images/variations/city/module_rounded_templatecolor_corners.png); }
+div.mod-rounded-templatecolor div.box-1,
+div.mod-rounded-templatecolor div.box-2 { background-image: url(../../images/variations/city/module_rounded_templatecolor_edges.png); }
+div.mod-rounded-templatecolor div.box-3 {
+	background: #A03325;
+	color: #f5e4e2;
+}
+div.mod-rounded-templatecolor h3.header { color: #ffffff; }
+div.mod-rounded-templatecolor em.box { border: 1px dotted #3b0f0a; background: #86261a; }
+
+#page div.mod-sidebar-templatecolor h3.header,
+div.mod-sidebar-templatecolor span.header-2 { background-image: url(../../images/variations/city/module_rounded_templatecolor_corners.png); }
+div.mod-sidebar-templatecolor h3.header { color: #ffffff; }
+
+h1,
+#page h1 a,
+h3,
+h5,
+.contentheading,
+.componentheading { color: #A03325; }
+h2,
+h4,
+h6 { color: #1c8191; }
+a:link,
+a:visited,
+div.mod-rounded-white a:link,
+div.mod-rounded-white a:visited,
+div.mod-rounded-lightgrey a:link,
+div.mod-rounded-lightgrey a:visited { color: #A03325; }
+a:hover,
+div.mod-rounded-white a:hover,
+div.mod-rounded-lightgrey a:hover { color: #1c8191; }
+
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_city.png); }

@@ -1,0 +1,28 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * This CSS file is for customization purpose only
+ */ 
+
+#logo a.logo-icon {
+	display: block;
+	width: 300px;
+	height: 120px;
+	background: url(../../../images/yootheme/logo.png) 0 0 no-repeat;
+}
+
+
+.maintopblock div.mod-layer h3.header .title {
+	text-align: center;
+	font-size: 30px;
+	line-height: 35px;
+	font-weight: bold;
+}
+
+.maintopblock div.mod-layer h3.header .subtitle {
+	text-align: center;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.maintopblock div.mod-layer div.blank-h div.yoo-scroller { margin: 0px 0px -20px 0px; }

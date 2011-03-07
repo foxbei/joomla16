@@ -1,0 +1,62 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+#footer a.anchor { background-image: url(../../images/variations/red/footer_anchor.png); }
+
+/* typography */
+h1,
+#page h1 a,
+h3,
+h5,
+.contentheading,
+.componentheading { color: #9D1B1F; }
+
+a { color: #417CAB; }
+
+#page h1 a:hover,
+a:hover,
+ul.links li:hover a,
+ul.latestnews li:hover a,
+ul.mostread li:hover a { color: #9D1B1F; }
+
+ul.links li,
+ul.latestnews li,
+ul.mostread li { background-image: url(../../images/variations/red/list_links.png) }
+
+/* menus */
+#menu li.level1,
+#menu li.parent a.level1,
+#menu li.parent span.level1 { background-image: url(../../images/variations/red/menu_level1_item.png); }
+#menu li.active .level1 span.bg { color: #9D1B1F; }
+#menu .dropdown-t3 { background: #CE0B0B; }
+#menu a.level3,
+div.mod-box ul.menu li.level2 span.bg { background-image: url(../../images/variations/red/menu_level3_item.png); }
+#menu a.level2:hover span.bg,
+#menu a.level3:hover span.bg,
+div.mod-box ul.menu a:hover span.bg,
+div.mod-box ul.menu span:hover span.bg { color: #9D1B1F; }
+div.mod-box ul.menu li.parent a.level1 span.bg,
+div.mod-box ul.menu li.parent span.level1 span.bg { background-image: url(../../images/variations/red/submenu_level1_parent.png); }
+
+/* modules */
+div.mod-box-header h3.header { background-image: url(../../images/variations/red/module_box_corners.png); }
+div.mod-box-templatecolor div.box-t1,
+div.mod-box-templatecolor div.box-t2,
+div.mod-box-templatecolor div.box-t3,
+div.mod-box-templatecolor div.box-b1,
+div.mod-box-templatecolor div.box-b2,
+div.mod-box-templatecolor div.box-b3,
+div.mod-box-templatecolor.mod-box-header h3.header { background-image: url(../../images/variations/red/module_box_templatecolor_corners.png); }
+div.mod-box-templatecolor div.box-3 {
+	border-left: 1px solid #750F0F;
+	border-right: 1px solid #750F0F;
+	background: #A80000;
+}
+div.mod-box-templatecolor.mod-box-header h3.header { color: #750F0F; }
+div.mod-box-templatecolor em.box { border: 1px dotted #FF7D7D; background: #750F0F; }
+
+/* system */
+a.readmore { background-image: url(../../images/variations/red/readmore.png); }
+#page a.readmore:hover { color: #9D1B1F; }
+
+#searchbox .results li.results-header {	background-image: url(../../images/variations/red/yoosearch/header_bg.png); }

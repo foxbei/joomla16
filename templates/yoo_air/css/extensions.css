@@ -1,0 +1,44 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * ZOO noble blog template
+ */
+ 
+#yoo-zoo.blog-noble .items { margin: 0px -10px 0px -10px; }
+#yoo-zoo.blog-noble .items div.teaser-item { padding: 0px 10px 20px 10px; }
+#yoo-zoo.blog-noble .item div.pos-date,
+#yoo-zoo.blog-noble .items div.pos-date {
+	margin-right: 8px;
+	width: 48px;
+	height: 46px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(../images/system_date.png);
+}
+#yoo-zoo.blog-noble .item div.pos-date span.month,
+#yoo-zoo.blog-noble .items div.pos-date span.month { 
+	margin-top: 3px;
+	padding-right: 8px;
+}
+#yoo-zoo.blog-noble .item div.pos-date span.day,
+#yoo-zoo.blog-noble .items div.pos-date span.day {
+	margin-top: -2px;
+	padding-right: 8px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+#yoo-zoo.blog-noble .item h1.pos-title,
+#yoo-zoo.blog-noble .items h1.pos-title { 
+	margin-bottom: 10px;
+	font-size: 24px;
+	text-transform: none;
+}
+#yoo-zoo.blog-noble .items-col-2 h1.pos-title { font-size: 22px;}
+#yoo-zoo.blog-noble .items-col-3 h1.pos-title { font-size: 20px;}
+#yoo-zoo.blog-noble .items-col-4 h1.pos-title { font-size: 18px;}
+
+#yoo-zoo.blog-noble .item h1.pos-title,
+#yoo-zoo.blog-noble .items h1.pos-title,
+#yoo-zoo.blog-noble .items h1.pos-title a { color: #3990BD; }
+
+#yoo-zoo.blog-noble .items div.teaser-item-bg,
+#yoo-zooblog.blog-noble .item div.pos-bottom .element,
+#yoo-zoo.blog-noble .item div.pos-related { background-image: url(../images/article_separator.png); background-repeat: no-repeat; }

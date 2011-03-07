@@ -1,0 +1,36 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body.yoopage { background: #21262D; }
+#page-body { background: #00809D url(../../images/variations/comboblue/page_bg_t.png) 50% 0 repeat-x; }
+#page-footer { background-image: url(../../images/variations/comboblue/page_bg_b.png); }
+
+#menubar { background-image: url(../../images/variations/comboblue/menubar_bg.png); }
+#menubar div.menubar-2 { background-image: url(../../images/variations/comboblue/menubar_bg.png); }
+#menubar div.menubar-3 { background-image: url(../../images/variations/comboblue/menubar_bg.png); }
+#menubar div.menubar-4 { background-image: url(../../images/variations/comboblue/menubar_shadow.png); }
+
+#menu li.active .level1 span.bg { color: #058eac; }
+#menu li.active .level1 span.subtitle { color: #057a93; }
+
+h1,
+#page h1 a,
+h3,
+h5,
+a:link,
+a:visited,
+.contentheading,
+.componentheading { color: #00a1c4; }
+
+a:hover { color: #03c6f0;  }
+
+/* color: header templatecolor */
+div.mod-rounded-header-templatecolor div.header-1 { background-image: url(../../images/module_rounded_grey_header_grey.png); }
+div.mod-rounded-header-templatecolor div.header-2 { background-image: url(../../images/module_rounded_grey_header_grey.png); }
+div.mod-rounded-header-templatecolor div.header-3 { background-image: url(../../images/module_rounded_grey_header_grey.png); }
+
+div.mod-rounded-header-templatecolor h3.header {
+	color: #323232;
+	text-shadow: 0px 1px 0px #ffffff, 0px 2px 2px #c8c8c8;
+}
+
+div.mod-rounded-header-templatecolor h3.header span.subtitle { color: #646464; }

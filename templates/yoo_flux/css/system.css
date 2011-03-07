@@ -1,0 +1,167 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/system.css);
+@import url(../warp/systems/joomla.1.6/css/system.css);
+
+/*
+ * general
+ */
+
+#system .title { 
+	text-shadow: 0px 1px 0px #ffffff, 0px 2px 4px #aaaaaa;
+	letter-spacing: -1px;
+}
+
+/*
+ * item
+ */
+ 
+#system .item > .meta {
+	font-size: 10px;
+	color: #646464;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+#system .items .item { 
+	border: none;
+	background: url(../images/article_separator.png) 50% 0 repeat-x;
+}
+
+#system .items .item:first-child { background: none; }
+
+/*
+ * Joomla 1.6 only
+ */
+ 
+#system .items.leading {
+	border: none;
+	background: url(../images/article_separator.png) 50% 100% repeat-x;
+}
+
+#system .item-list {
+    border-top: none;
+	padding-top: 11px;
+	background: url(../images/article_separator.png) 50% 0 repeat-x;
+}
+
+/*
+ * search
+ */
+ 
+#searchbox {
+	width: 120px;
+	height: 18px;
+	padding: 0px;
+	margin: 0px;
+	background: url(../images/searchbox_bg.png) 0 0 no-repeat;
+}
+
+#searchbox:hover { background-position: 0 -18px; }
+
+#searchbox input {
+	width: 84px;
+	height: 18px;
+	line-height: 18px;
+	color: #646464;
+}
+
+#searchbox button {
+	width: 18px;
+	height: 18px;
+}
+
+#searchbox button.magnifier { background: url(../images/search_magnifier_icon.png) 0 0 no-repeat; }
+
+#searchbox .results {
+	top: 35px;
+	right: 0px;
+	border-color: #C8C8C8;
+	border-top: none;
+	background: #FAFAFA;
+	-webkit-box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+
+#searchbox .results li.results-header,
+#searchbox .results li.more-results {
+	height: 25px;
+	border: none;
+	color: #ffffff;
+	line-height: 25px;
+	background: url(../images/search_header_bg.png) 0 0 repeat-x;
+}
+
+#searchbox .results li.result { border: none; }
+#searchbox .results li.result.selected { background: #E6E7E8; }
+
+/*
+ * table zebra
+ */
+ 
+table.zebra tbody tr.odd { background: #fafafa; }
+table.zebra tbody tr:nth-of-type(odd) { background: #fafafa; }
+
+table.zebra tbody tr.even { background: #f0f0f0; }
+table.zebra tbody tr:nth-of-type(even) { background: #f0f0f0; }
+
+/*
+ * list style
+ */
+
+ul.line > li {
+	border-top-style: solid;
+	border-color: #D2D2D2;
+}
+
+/*
+ * pagination
+ */
+
+div.pagination { margin-bottom: 10px; }
+
+.pagination a,
+.pagination strong { 
+	border-color: #D2D2D2;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/*
+ * breadcrumbs
+ */
+
+.breadcrumbs a:hover { text-decoration: underline; }
+
+/* 
+ * readmore button 
+ */
+ 
+p.readmore { overflow: hidden; }
+div.module p.readmore {	margin-bottom: 0px; }
+
+a.readmore {
+	width: 100px;
+	height: 20px;
+	padding: 0px;
+	border: none;
+	background: transparent url(../images/readmore.png) 0 0 no-repeat;
+	float: left;
+	line-height: 20px;
+	text-indent: 10px;
+	font-size: 90%;
+	
+	text-decoration: none;
+	text-shadow: 0px -1px 1px #ffffff, 0px 2px 2px #b4b4b4;
+}
+
+a.readmore:link,
+a.readmore:visited { color: #505050; }
+
+a.readmore:hover {
+	background-position: 0 -25px;
+	color: #000000;
+	text-shadow: 0px 1px 1px #ffffff, 0px 2px 2px #969696;
+}

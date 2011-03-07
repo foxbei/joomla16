@@ -1,0 +1,105 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+
+/* layout */
+
+body { color: #858584; }
+
+.main-wrapper-1,
+.main-wrapper-2 { background-image: url(../../images/styles/beige/wrapper_bg.png); }
+
+.content-wrapper-1 { background-color: #E9E8E0; }
+.content-wrapper-2 { 
+	border-color: #E0DECF;
+	background-color: #F5F4F0;
+}
+
+.column-contentleft div.contentleft-bg,
+.column-contentright div.contentright-bg { background-image: url(../../images/styles/beige/content_wrapper_bg.png); }
+
+/* typography */
+
+ul.table li:nth-child(odd) { background: #FAFAF8; }
+ul.table li:nth-child(even) { background: #FEFEFC; }
+
+table.listing thead th,
+table.listing tbody td { border-bottom-color: #E0E0E1; }
+table.listing tr.odd td { background: #FAFAF8; }
+table.listing tr.even td { background: #FEFEFC; }
+
+/* menus */
+
+#menu .dropdown-1,
+#menu .dropdown-2 {	background-image: url(../../images/styles/beige/menu_dropdown_edges.png); }
+
+#menu .dropdown-3 {	background-color: #F5F5F3; }
+
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/styles/beige/menu_dropdown_corners.png); }
+
+div.mod-line ul.menu a.level1 span.bg,
+div.mod-line ul.menu span.level1 span.bg { border-top-color: #CFCEC8; }
+
+.fancyfollower { background-image: url(../../images/styles/beige/submenu_level1_item_hover.png); }
+#contentleft .fancyfollower { background-image: url(../../images/styles/beige/submenu_level1_item_hover_left.png); }
+
+/* modules */
+
+div.mod-box div.box-3 { background-color: #EEEDE9; }
+#contentright div.mod-box div.box-3,
+#contentleft div.mod-box div.box-3 { background-color: #E2E1DA; }
+
+div.mod-box h3.header,
+div.mod-line h3.header { border-bottom-color: #CFCEC8; }
+
+#contentleft div.mod-line.first h3.header,
+#contentright div.mod-line.first h3.header { border-top-color: #CFCEC8; }
+
+div.mod-border div.box-1 { border-color: #DCDBD8; }
+
+#left div.mod-border div.box-1,
+#right div.mod-border div.box-1 { border-color: #D1D0C9; }
+
+/* joomla */
+
+div.joomla table.joomlatable tr.even td {
+	background: #FEFEFC;
+	border-bottom-color: #DFDED4;
+}
+
+div.joomla table.joomlatable tr.odd td {
+	background: #FAFAF8;
+	border-bottom-color: #DFDED4;
+}
+
+/* extensions */
+
+#page div.default div.yoo-search div.searchbox { background-image: url(../../images/styles/beige/yoosearch/searchbox_bg.png); }
+#page div.default div.yoo-search div.resultbox-bg {
+	border-left-color: #B1B0AB;
+	border-right-color: #B1B0AB;
+	background: #F5F5F3;
+}
+#page div.default div.yoo-search div.resultbox-bl { background-image: url(../../images/styles/beige/yoosearch/resultbox_bl.png); }
+#page div.default div.yoo-search div.resultbox-br { background-image: url(../../images/styles/beige/yoosearch/resultbox_br.png); }
+#page div.default div.yoo-search div.resultbox-b { background-image: url(../../images/styles/beige/yoosearch/resultbox_b.png); }
+#page div.default div.yoo-search span.search-more { background-image: url(../../images/styles/beige/yoosearch/more_icon.png); }
+#page div.default div.yoo-search h3.search-header { background-image: url(../../images/styles/beige/yoosearch/header_bg.png); }
+#page div.default div.yoo-search .resultbox-bg a { background-color: #F5F5F3; border-bottom-color: #E4E4E2;  }
+#page div.default div.yoo-search .resultbox-bg a:hover { background-color: #FCFCFA; }
+
+#page #yoo-zoo.blog-noble div.pos-date { background-image: url(../../images/styles/beige/zoo/date_bg.png); }
+
+/* custom */
+
+#logo {
+	left: -40px;
+	top: 30px;
+}
+
+#page #logo a.logo-icon {
+	width: 180px;
+	height: 60px;
+	background: url(../../../../images/yootheme/logo_beige.png) 0 0 no-repeat;
+}

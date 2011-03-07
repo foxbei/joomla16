@@ -1,0 +1,108 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+body.yoopage { background: #5F0E03; }
+#page-body { background: #721305 url(../../images/variations/red/page_body_bg.jpg) 50% 0 no-repeat; }
+#page-footer { background-image: url(../../images/variations/red/page_footer_bg.png); }
+
+div.content-wrapper-t1,
+div.content-wrapper-t2,
+div.content-wrapper-t3,
+div.content-wrapper-b1,
+div.content-wrapper-b2,
+div.content-wrapper-b3 { background-image: url(../../images/variations/red/content_wrapper_corners.png); }
+div.content-wrapper-1,
+div.content-wrapper-2 {	background-image: url(../../images/variations/red/content_wrapper_edges_shadow.png); }
+.column-left div.content-wrapper-3,
+.column-right div.content-wrapper-4 { background-image: url(../../images/variations/red/content_wrapper_edges_with.png); }
+
+/* typography */
+h1,
+#page h1 a,
+h3,
+h5,
+.contentheading,
+.componentheading { color: #635B54; }
+
+h2, h4, h6 { color: #944236; }
+
+a:link,
+a:visited { color: #944236; }
+a:hover { color: #829D2D; }
+
+/* menus */
+#menu .dropdown-t1,
+#menu .dropdown-t2,
+#menu .dropdown-t3,
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/variations/red/menu_dropdown_corners.png); }
+#menu .dropdown-1,
+#menu .dropdown-2 { background-image: url(../../images/variations/red/menu_dropdown_edges.png); }
+#menu .dropdown-3,
+#menu a.level2,
+#menu li.level2.parent .hover-box1 { background-color: #EFEEED; }
+#menu a.level1 span.bg,
+#menu span.level1 span.bg,
+#menu a.level2 span.bg,
+#menu span.level2 span.bg,
+#menu a.level3 span.bg,
+#menu span.level3 span.bg { color: #635B54; }
+#menu li.level2.parent .hover-box1,
+#menu li.level2.parent .hover-box2,
+#menu li.level2.parent .hover-box3,
+#menu li.level2.parent .hover-box4 { background-image: url(../../images/variations/red/menu_level2_item.png); }
+#menu li.level2.parent .hover-box1:hover,
+#menu li.level2.parent .hover-box1:hover .hover-box2,
+#menu li.level2.parent .hover-box1:hover .hover-box3,
+#menu li.level2.parent .hover-box1:hover .hover-box4 { background-image: url(../../images/variations/red/menu_level2_item_hover.png); }
+#menu li.level2.parent.separator .hover-box1:hover,
+#menu li.level2.parent.separator .hover-box1:hover .hover-box2,
+#menu li.level2.parent.separator .hover-box1:hover .hover-box3,
+#menu li.level2.parent.separator .hover-box1:hover .hover-box4 { background-image: url(../../images/variations/red/menu_level2_item.png); }
+
+#menu div.fancy div.fancy-1,
+#menu div.fancy div.fancy-2,
+#menu div.fancy div.fancy-3 { background-image: url(../../images/variations/red/menu_fancy.png); }
+
+div.mod-sidebar ul.menu li.level2 a { background-color: #312828; }
+
+/* modules */
+div.mod-headerbar span { color: #312828; }
+div.mod-headerbar a { color: #dcdcdc; }
+
+div.mod-layer div.box-1 { background: #EFEEED url(../../images/variations/red/module_layer_b.png) 0 100% repeat-x; }
+div.mod-layer div.box-2 { background-image: url(../../images/variations/red/module_layer_t.png); }
+
+div.mod-sidebar div.box-1,
+div.mod-sidebar h3.header,
+div.mod-sidebar span.header-2,
+div.mod-sidebar span.header-3 { background-image: url(../../images/variations/red/module_sidebar.png); }
+
+/* system */
+a.readmore { background-image: url(../../images/variations/red/readmore.png); }
+
+#searchbox .results {
+	border-color: #a0a580;
+	background: #EFEEED;
+}
+
+#searchbox .results li.results-header { background-image: url(../../images/variations/red/yoosearch/header_bg.png); }
+#searchbox .results li.result.selected { background-color: #e6e3e1; }
+
+
+.sidebar-search #searchbox input { color: #c8c8c8 }
+.sidebar-search #searchbox:hover input,
+.sidebar-search #searchbox input:focus { color: #ffffff; }
+.sidebar-search #searchbox .loading button.reset { background-image: url(../../images/variations/red/yoosearch/sidebar_loader_icon.gif); }
+
+.sidebar-search #searchbox .results {
+	border-color: #211D1D;
+	background: #2D2424;
+}
+
+.sidebar-search #searchbox .results li.results-header { background-image: url(../../images/variations/red/yoosearch/sidebar_header_bg.png); }
+.sidebar-search #searchbox .results li.result.selected { background-color: #231b1b; }
+
+/* custom */
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_red.png); }

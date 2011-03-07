@@ -1,0 +1,56 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* MENUBAR */
+
+.menubar-glossy #headerbar { background-image: url(../images/menubar/glossy/headerbar_bg.png) }
+
+.menubar-glass #headerbar { background-image: url(../images/menubar/glass/headerbar_bg.png) }
+.menubar-glass #menu a.level1 span.bg,
+.menubar-glass #menu span.level1 span.bg { text-shadow: 0 1px 1px rgba(255,255,255,1); }
+.menubar-glass #menu div.fancy-1,
+.menubar-glass #menu div.fancy-2,
+.menubar-glass #menu div.fancy-3 {	background-image: url(../images/menubar/glass/menu_level1_item_fancy.png); }
+
+.menubar-destructed #headerbar { background-image: url(../images/menubar/destructed/headerbar_bg.png) }
+
+/* BACKGROUNDS */
+.background-aurora .page-header-img { background: url(../images/background/aurora/aurora_blue.jpg) 50% 0px no-repeat; }
+.background-glitter .page-header-img { background: url(../images/background/glitter/glitter_blue.jpg) 50% 0px no-repeat; }
+.background-bubbles .page-header-img { background: url(../images/background/bubbles/bubbles_blue.jpg) 50% 0px no-repeat; }
+
+.background-landscape #page-header { background: #116993; }
+.background-landscape .page-header-img { background: url(../images/background/landscape/landscape_blue.jpg) 50% 100% repeat-x; }
+
+.background-mountains #page-header { background: #098ec9; }
+.background-mountains .page-header-img { background: url(../images/background/mountains/mountains_blue.jpg) 50% 100% repeat-x; }
+
+.background-space #page-header { background: #070e19; }
+.background-space .page-header-img { background: url(../images/background/space/space_blue.jpg) 50% 0px repeat-x; }
+
+.background-photo #page-header { background: #a1bad5; }
+.background-photo .page-header-img { background: url(../images/background/photo/photo.jpg) 50% 100% repeat-x; }
+
+/* FONTS */
+body.font-lucida,
+.font-lucida h1,
+.font-lucida h2,
+.font-lucida h3,
+.font-lucida h4,
+.font-lucida h5,
+.font-lucida h6 { font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; }
+
+body.font-georgia,
+.font-georgia h1,
+.font-georgia h2,
+.font-georgia h3,
+.font-georgia h4,
+.font-georgia h5,
+.font-georgia h6 { font-family: Georgia, "Times New Roman", Times, serif; }
+
+body.font-trebuchet,
+.font-trebuchet h1,
+.font-trebuchet h2,
+.font-trebuchet h3,
+.font-trebuchet h4,
+.font-trebuchet h5,
+.font-trebuchet h6 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; }

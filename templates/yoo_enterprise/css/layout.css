@@ -1,0 +1,384 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+ 
+ 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+	color: #323232;
+}
+
+ 
+
+.wrapper { margin: auto; }
+
+#header {
+	position: relative;
+	z-index: 10;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+#top {
+	overflow: hidden;
+	clear: both;
+}
+
+#middle {
+	clear: both;
+	min-height: 300px;
+}
+
+#bottom {
+	overflow: hidden;
+	clear: both;
+}
+
+#footer {
+	position: relative;
+	padding: 20px 0px 25px 0px;
+	clear: both;
+	text-align: center;
+	font-size: 10px;
+}
+
+ 
+ 
+#middle {
+	width: 100%;  
+	 
+	overflow: hidden;  
+	position: relative;  
+}
+
+#middle-expand {
+	width: 200%;
+}
+
+ 
+#main {
+	position: relative;
+	left: 50%;
+	width: 50%;
+	float: left;
+}
+
+#main-shift {
+	position: relative;
+	left: -100%;
+	 
+	 
+	overflow: hidden;
+}
+
+ 
+#left {
+	position: relative;
+	left: -50%;
+	 
+	float: left;
+	overflow:hidden;
+}
+
+ 
+#right {
+	 
+	 
+	float: left;
+	overflow:hidden;
+}
+
+ 
+
+div#maintop,
+div#contenttop {
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+
+div#contentbottom,
+div#mainbottom {
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+
+ 
+ 
+#mainmiddle {
+	width: 100%;  
+	 
+	overflow: hidden;  
+	position: relative;  
+}
+
+#mainmiddle-expand {
+	width: 200%;
+}
+
+ 
+#content {
+	position: relative;
+	left: 50%;
+	width: 50%;
+	float: left;
+}
+
+#content-shift {
+	position: relative;
+	left: -100%;
+	 
+	 
+	overflow: hidden;
+}
+
+ 
+#contentleft {
+	position: relative;
+	left: -50%;
+	 
+	float: left;
+	overflow:hidden;
+}
+
+ 
+#contentright {
+	 
+	 
+	float: left;
+	overflow:hidden;
+}
+
+ 
+
+.floatbox { overflow:hidden; }
+
+.float-left { float: left; overflow: hidden; }
+.float-right { float: right; overflow: hidden; }
+
+.width15 { width: 15%; }
+.width18 { width: 18%; }
+.width20 { width: 20%; }
+.width23 { width: 23%; }
+.width25 { width: 25%; }
+.width33 { width: 33%; }
+.width34 { width: 34%; }
+.width35 { width: 35%; }
+.width40 { width: 40%; }
+.width46 { width: 46%; }
+.width50 { width: 50%; }
+.width54 { width: 54%; }
+.width65 { width: 65%; }
+.width75 { width: 75%; }
+.width100 { width: 100%; }
+
+ 
+
+body.yoopage { background: #F0F1F2; }
+#page-body {}
+
+ 
+
+#absolute {
+	position: absolute;
+	z-index: 15;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+ 
+#breadcrumbs {
+	padding-bottom: 10px;
+	background: url(../images/breadcrumbs_bg.png) 0 0 no-repeat;
+	overflow: hidden;
+	clear: both;
+	font-size: 10px;
+	line-height: 22px;
+	text-shadow: 0 1px 0 rgba(255,255,255,1);
+}
+
+div.breadcrumbs-1 {
+	padding: 0px 10px 0px 10px;
+	background: url(../images/breadcrumbs_bg.png) 100% -60px no-repeat;
+}
+
+div.breadcrumbs-2 {
+	padding: 14px 5px 14px 5px;
+	height: 22px;
+	overflow: hidden;
+	background: url(../images/breadcrumbs_bg.png) 0 -120px repeat-x;
+}
+
+#breadcrumbs a,
+#breadcrumbs span {
+	display: block;
+	float: left;
+}
+
+#breadcrumbs a,
+#breadcrumbs span.separator { color: #646464; }
+
+#breadcrumbs a:hover,
+#breadcrumbs span.current { 
+	color: #ffffff;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5), 0 1px 2px rgba(0,0,0,0.5);
+	text-decoration: none;
+}
+
+#breadcrumbs .box-1 { 
+	margin-right: 10px;
+	background: url(../images/breadcrumbs.png) 0 0 no-repeat;
+}
+
+#breadcrumbs .box-2 {
+	padding: 0px 10px 0px 15px;
+	background: url(../images/breadcrumbs.png) 100% -32px no-repeat;
+}
+
+#breadcrumbs .box-3 {
+	height: 22px;
+	padding-left: 5px;
+	background: url(../images/breadcrumbs.png) 0 -64px repeat-x;
+}
+
+#breadcrumbs a:hover { background-position: 0 -96px; }
+#breadcrumbs span.current { background-position: 0 -192px; }
+#breadcrumbs a:hover .box-2,
+#breadcrumbs span.current .box-2 { background-position: 100% -128px; }
+#breadcrumbs a:hover .box-3,
+#breadcrumbs span.current .box-3 { background-position: 0 -160px; }
+
+#date {
+	margin: 0px 5px 0px 0px;
+	float: right;
+}
+
+ 
+
+ 
+#toolbar {
+	height: 25px;
+	overflow: hidden;
+	line-height: 25px;
+	font-size: 10px;
+}
+
+#headerbar {
+	min-height: 55px;
+	padding: 0px 0px 0px 300px;
+	overflow: hidden;
+}
+
+ 
+#logo {
+	position: absolute;
+	top: 30px;
+	left: 15px;
+}
+
+#menu {
+	position: absolute;
+	bottom: 15px;
+	left: 7px;
+	z-index: 11;
+}
+
+#search {
+	position: absolute;
+	bottom: 27px;
+	right: 15px;
+	z-index: 12;
+}
+
+#banner {
+	position: absolute;
+	top: 15px;
+	right: -15px;
+	width: 0px;
+	z-index: 3;
+}
+
+ 
+
+#footer a.anchor {
+	position: absolute;
+	right: 3px;
+	top: 2px;
+	width: 19px;
+	height: 19px;
+	background: url(../images/footer_anchor.png) 0 0 no-repeat;
+	display: block;
+	text-decoration: none;
+}
+
+#footer a.anchor:hover { background-position: 0 -30px; }
+
+ 
+ 
+div.header-1 { background: url(../images/header_edges.png) 0 0 repeat-y; }
+
+div.header-2 {
+	padding: 0px 5px 0px 5px;
+	background: url(../images/header_edges.png) 100% 0 repeat-y;
+}
+
+div.header-3 {
+	padding: 5px 10px 10px 10px;
+	overflow: hidden;
+	background: #ffffff;
+}
+
+div.header-b1 {	background: url(../images/header_corners.png) 0 0 no-repeat; }
+
+div.header-b2 {
+	padding: 0px 7px 0px 7px;
+	background: url(../images/header_corners.png) 100% -60px no-repeat;
+}
+
+div.header-b3 {
+	height: 50px;
+	overflow: hidden;		
+	background: url(../images/header_corners.png) 0 -120px repeat-x;
+}
+
+ 
+
+div.wrapper-t1 { background: url(../images/module_box_corners.png) 0 0 no-repeat; }
+
+div.wrapper-t2 {
+	padding: 0px 7px 0px 7px;
+	background: url(../images/module_box_corners.png) 100% -17px no-repeat;
+}
+
+div.wrapper-t3 {
+	height: 7px;
+	background: url(../images/module_box_corners.png) 0 -34px repeat-x;
+	overflow: hidden;
+}
+
+div.wrapper-1 { background: url(../images/module_box_edges.png) 0 0 repeat-y; }
+
+div.wrapper-2 { 
+	padding: 0px 5px 0px 5px;
+	background: url(../images/module_box_edges.png) 100% 0 repeat-y;
+}
+
+div.wrapper-3 { 
+	padding: 10px;
+	background: #ffffff;
+	overflow: hidden;
+}
+
+div.wrapper-b1 { background: url(../images/module_box_corners.png) 0 -51px no-repeat; }
+
+div.wrapper-b2 {
+	padding: 0px 7px 0px 7px;
+	background: url(../images/module_box_corners.png) 100% -68px no-repeat;
+}
+
+div.wrapper-b3 {
+	height: 7px;
+	background: url(../images/module_box_corners.png) 0 -85px repeat-x;
+	overflow: hidden;
+}

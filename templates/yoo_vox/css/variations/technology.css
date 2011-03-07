@@ -1,0 +1,52 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body.yoopage { background: #131415 url(../../images/variations/technology/page_bg_t.png) 50% 0 repeat-x; }
+#page-body { background: url(../../images/variations/technology/page_bg_img.jpg) 50% 0 no-repeat; }
+
+div.mod-headerbar span {
+	color: #f0f0f0;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1.0);
+}
+
+div.mod-rounded-templatecolor div.box-t1,
+div.mod-rounded-templatecolor div.box-t2,
+div.mod-rounded-templatecolor div.box-t3,
+div.mod-rounded-templatecolor div.box-b1,
+div.mod-rounded-templatecolor div.box-b2,
+div.mod-rounded-templatecolor div.box-b3,
+div.mod-rounded-templatecolor h3.header,
+div.mod-rounded-templatecolor span.header-2,
+div.mod-rounded-templatecolor span.header-3 { background-image: url(../../images/variations/technology/module_rounded_templatecolor_corners.png); }
+div.mod-rounded-templatecolor div.box-1,
+div.mod-rounded-templatecolor div.box-2 { background-image: url(../../images/variations/technology/module_rounded_templatecolor_edges.png); }
+div.mod-rounded-templatecolor div.box-3 {
+	background: #3E8393;
+	color: #ceeaf0;
+}
+div.mod-rounded-templatecolor h3.header { color: #ffffff; }
+div.mod-rounded-templatecolor em.box { border: 1px dotted #1c4e5a; background: #3893a8; }
+
+#page div.mod-sidebar-templatecolor h3.header,
+div.mod-sidebar-templatecolor span.header-2 { background-image: url(../../images/variations/technology/module_rounded_templatecolor_corners.png); }
+div.mod-sidebar-templatecolor h3.header { color: #ffffff; }
+
+h1,
+#page h1 a,
+h3,
+h5,
+.contentheading,
+.componentheading { color: #1a97b5; }
+h2,
+h4,
+h6 { color: #0a586a; }
+a:link,
+a:visited,
+div.mod-rounded-white a:link,
+div.mod-rounded-white a:visited,
+div.mod-rounded-lightgrey a:link,
+div.mod-rounded-lightgrey a:visited { color: #1a97b5; }
+a:hover,
+div.mod-rounded-white a:hover,
+div.mod-rounded-lightgrey a:hover { color: #0a586a; }
+
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_technology.png); }

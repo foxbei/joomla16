@@ -1,0 +1,31 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+ 
+body.yoopage { background: #CADEE4 url(../../images/variations/plainsky/page_bg.jpg) 0 0 no-repeat fixed; }
+#page-body { background: none; }
+
+/* typography */
+
+h2,
+h4,
+h6 { color: #539DB3; }
+
+a:link,
+a:visited { color: #539DB3; }
+a:hover { color: #323232; }
+
+ul.links li { background-image: url(../../images/variations/plainsky/list_links.png); }
+#page ul.links li a:hover { color: #539DB3; }
+
+/* modules */
+
+div.mod-glow-templatecolor div.box-1 { background-color: #475662; }
+div.mod-glow-templatecolor em.box { border: 1px dotted #1A2024; background: #36424B; }
+
+div.mod-glass div.box-4 { background-image: url(../../images/variations/plainsky/module_glass_line_v.png); }
+div.mod-glass div.box-2,
+div.mod-glass div.box-3 { background-image: url(../../images/variations/plainsky/module_glass_line_h.png); }
+
+/* custom */
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_plainsky.png); }

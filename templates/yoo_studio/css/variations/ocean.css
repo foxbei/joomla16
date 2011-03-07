@@ -1,0 +1,110 @@
+/* Copyright (C) 2007 - 2011 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+body.yoopage { background: #0E3242; }
+#page-body { background: #134053 url(../../images/variations/ocean/page_body_bg.png) 50% 0 repeat-x; }
+#page-body .page-body-img { background: url(../../images/variations/ocean/page_body_img.jpg) 50% 0 no-repeat; }
+#page-footer { background-image: url(../../images/variations/ocean/page_footer_bg.png); }
+
+div.content-wrapper-t1,
+div.content-wrapper-t2,
+div.content-wrapper-t3,
+div.content-wrapper-b1,
+div.content-wrapper-b2,
+div.content-wrapper-b3 { background-image: url(../../images/variations/ocean/content_wrapper_corners.png); }
+div.content-wrapper-1,
+div.content-wrapper-2 {	background-image: url(../../images/variations/ocean/content_wrapper_edges_shadow.png); }
+.column-left div.content-wrapper-3,
+.column-right div.content-wrapper-4 { background-image: url(../../images/variations/ocean/content_wrapper_edges_with.png); }
+
+/* typography */
+h1,
+#page h1 a,
+h3,
+h5,
+.contentheading,
+.componentheading { color: #20607B; }
+
+h2, h4, h6 { color: #48A8C8; }
+
+a:link,
+a:visited { color: #318FAE; }
+a:hover { color: #20607B; }
+
+/* menus */
+#menu .dropdown-t1,
+#menu .dropdown-t2,
+#menu .dropdown-t3,
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/variations/ocean/menu_dropdown_corners.png); }
+#menu .dropdown-1,
+#menu .dropdown-2 { background-image: url(../../images/variations/ocean/menu_dropdown_edges.png); }
+#menu .dropdown-3,
+#menu a.level2,
+#menu li.level2.parent .hover-box1 { background-color: #DEEAEF; }
+#menu li.level2.parent .hover-box1,
+#menu li.level2.parent .hover-box2,
+#menu li.level2.parent .hover-box3,
+#menu li.level2.parent .hover-box4 { background-image: url(../../images/variations/ocean/menu_level2_item.png); }
+#menu li.level2.parent .hover-box1:hover,
+#menu li.level2.parent .hover-box1:hover .hover-box2,
+#menu li.level2.parent .hover-box1:hover .hover-box3,
+#menu li.level2.parent .hover-box1:hover .hover-box4 { background-image: url(../../images/variations/ocean/menu_level2_item_hover.png); }
+#menu li.level2.parent.separator .hover-box1:hover,
+#menu li.level2.parent.separator .hover-box1:hover .hover-box2,
+#menu li.level2.parent.separator .hover-box1:hover .hover-box3,
+#menu li.level2.parent.separator .hover-box1:hover .hover-box4 { background-image: url(../../images/variations/ocean/menu_level2_item.png); }
+
+#menu div.fancy div.fancy-1,
+#menu div.fancy div.fancy-2,
+#menu div.fancy div.fancy-3 { background-image: url(../../images/variations/ocean/menu_fancy.png); }
+
+div.mod-sidebar ul.menu li.level2 a { background-color: #2e4552; }
+
+/* modules */
+div.mod-headerbar span {
+	color: #20607B;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 10px rgba(255, 255, 255, 0.3);
+}
+div.mod-headerbar a {
+	color: #ffffff;
+	text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.2);
+}
+div.mod-headerbar a:hover { text-decoration: underline; }
+
+div.mod-layer div.box-1 { background: #DEEAEF url(../../images/variations/ocean/module_layer_b.png) 0 100% repeat-x; }
+div.mod-layer div.box-2 { background-image: url(../../images/variations/ocean/module_layer_t.png); }
+
+div.mod-sidebar div.box-1,
+div.mod-sidebar h3.header,
+div.mod-sidebar span.header-2,
+div.mod-sidebar span.header-3 { background-image: url(../../images/variations/ocean/module_sidebar.png); }
+
+/* system */
+a.readmore { background-image: url(../../images/variations/ocean/readmore.png); }
+
+#searchbox .results {
+	border-color: #a0a580;
+	background: #DEEAEF;
+}
+
+#searchbox .results li.results-header { background-image: url(../../images/variations/ocean/yoosearch/header_bg.png); }
+#searchbox .results li.result.selected { background-color: #cbdbe1; }
+
+
+.sidebar-search #searchbox input { color: #c8c8c8 }
+.sidebar-search #searchbox:hover input,
+.sidebar-search #searchbox input:focus { color: #ffffff; }
+.sidebar-search #searchbox .loading button.reset { background-image: url(../../images/variations/ocean/yoosearch/sidebar_loader_icon.gif); }
+
+.sidebar-search #searchbox .results {
+	border-color: #202B31;
+	background: #273D47;
+}
+
+.sidebar-search #searchbox .results li.results-header { background-image: url(../../images/variations/ocean/yoosearch/sidebar_header_bg.png); }
+.sidebar-search #searchbox .results li.result.selected { background-color: #20343d; }
+
+/* custom */
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_ocean.png); }
